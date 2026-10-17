@@ -41,6 +41,23 @@ PDFS = {
 
 SHEET_CSV = os.environ.get("MANUAL_SHEET_CSV_URL", "")
 
+PAGES = {
+    "daido": "https://www.seibu-leisure.co.jp/icearena/",
+    "edogawa": "https://www.edogawa-sportsland.com/",
+    "higashiyamato": "https://www.seibu-leisure.co.jp/web/iceskate/index.html",
+    "jingu": "https://meijijingugaien-iceskating.com/",
+    "maorink": "https://maorink.com/",
+    "utsunomiya_news": "https://www.miya-sp.jp/topics/news/",
+    "aqua_news": "http://www.aquarink-chiba.jp/news01/news.php",
+    "kose_general": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
+    "yokohama_cal": "https://yokohama-icearena.jp/topics/?p=8216",
+    "ginga_general": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
+    "kose_sp_top": "https://www.kose-sp.pref.yamanashi.jp/",
+    "mfice_top": "https://mf-ice.com/",
+}
+
+RUN_AI = os.environ.get("PROBE_AI") == "1"
+
 report = []
 
 
@@ -214,13 +231,30 @@ def probe_ai(saved):
     log()
 
 
+def probe_pages():
+    log("## 5. HTMLページ")
+    pages_dir = OUT / "pages"
+    pages_dir.mkdir(exist_ok=True)
+    for name, url in PAGES.items():
+        try:
+            status, ctype, body = fetch(url)
+        except Exception as e:  # noqa: BLE001
+            log(f"- **{name}**: 取得失敗 {type(e).__name__}: {e}")
+            continue
+        (pages_dir / f"{name}.html").write_bytes(body)
+        log(f"- **{name}**: HTTP {status}, {ctype}, {len(body):,} bytes")
+    log()
+
+
 def main():
     log(f"# 取得テスト結果（{dt.datetime.now(JST):%Y-%m-%d %H:%M} JST）")
     log()
     probe_calendars()
     saved = probe_pdfs()
     probe_sheet()
-    probe_ai(saved)
+    if RUN_AI:
+        probe_ai(saved)
+    probe_pages()
     md = "\n".join(report)
     (OUT / "report.md").write_text(md, encoding="utf-8")
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
