@@ -9,7 +9,7 @@ on:
       - .github/workflows/probe.yml
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   probe:
@@ -25,10 +25,15 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           MANUAL_SHEET_CSV_URL: https://docs.google.com/spreadsheets/d/e/2PACX-1vTsUr65zkeUa-BLk20VUzHMZ6FOxVlR-3gTuXBMUBBDUTxHt8aO8Gp07LxsaiDLiRbHC6ZjJcKpT273/pub?gid=0&single=true&output=csv
         run: python scripts/probe.py
-      - name: 結果を保存
+      - name: 結果を probe-results ブランチに保存
         if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: probe-results
-          path: probe_results/
-          retention-days: 7
+        run: |
+          mkdir -p /tmp/out && cp -r probe_results/. /tmp/out/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan probe-results
+          git rm -rq --cached . && find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -r /tmp/out/. .
+          git add -A
+          git commit -qm "取得テスト結果 ${GITHUB_RUN_ID}"
+          git push -f origin probe-results
