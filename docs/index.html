@@ -188,6 +188,7 @@
       if (rec.note) notes.push(`<div class="small">${esc(rec.note)}</div>`);
       if (rec.resurfacing && rec.resurfacing.length) notes.push(`<div class="small">整氷 ${rec.resurfacing.map(esc).join('・')}</div>`);
       if (rec.confidence === 'low') notes.push('<div class="warn">読み取り確度：低　公式サイトで確認してください</div>');
+      else if (rec.method === 'ai') notes.push(`<div class="small">AIで読み取り${rec.confidence === 'medium' ? '（確度：中・公式サイトで確認を）' : ''}</div>`);
       return `<article class="card ${planned ? 'planned' : ''}">
         <div class="top"><div><div class="name">${esc(rink.name)}</div><div class="place">${esc(rink.pref)}・${esc(rink.city)}</div></div>${badge}</div>
         <div class="sessions">${rec.sessions.map((s) => sessionRow(s, rink.two_rinks)).join('')}</div>
@@ -198,7 +199,7 @@
     const reason = rec && rec.note ? rec.note : (rec ? '' : 'この日の記録はありません');
     return `<article class="card dim">
       <div class="top"><div class="name">${esc(rink.name)}</div><span class="badge b-off">${label}</span></div>
-      ${reason ? `<div class="small">${esc(reason)}</div>` : ''}${err}
+      ${reason ? `<div class="small">${esc(reason)}</div>` : ''}${rec && rec.method === 'ai' && rec.status === 'closed' ? '<div class="small">AIで読み取り</div>' : ''}${err}
       <div class="foot">${link}${when}</div></article>`;
   }
 

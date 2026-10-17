@@ -5,6 +5,7 @@ from __future__ import annotations
 import datetime as dt
 import re
 import unicodedata
+import urllib.parse
 import urllib.request
 from dataclasses import dataclass, field, asdict
 
@@ -56,6 +57,8 @@ def is_weekend_or_holiday(day: dt.date) -> bool:
 
 
 def fetch_bytes(url: str, timeout: int = 30) -> bytes:
+    # 日本語を含むURL（例：「一般営業カレンダー2026.10.pdf」）も取得できるようにする
+    url = urllib.parse.quote(url, safe=":/?&=%#~+,;@!$'()*")
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=timeout) as res:
         return res.read()
@@ -98,6 +101,7 @@ class DayRecord:
     confidence: str = "high"
     note: str = ""
     source_url: str = ""
+    method: str = ""   # "ai" = AIで読み取った情報
 
     def to_json(self, fetched_at: str) -> dict:
         sessions = sorted(

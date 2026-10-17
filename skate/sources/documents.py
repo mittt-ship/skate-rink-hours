@@ -145,14 +145,24 @@ def _records_from_ai(result: dict, year: int, month: int, url: str) -> dict:
                     for s in item.get("sessions", []) if s.get("start") and s.get("end")]
         note = item.get("note", "") or ""
         if status == "open" and sessions:
-            out[day] = open_day(sessions, url, note=note, confidence=conf,
-                                resurfacing=[r for r in item.get("resurfacing", []) if r])
+            rec = open_day(sessions, url, note=note, confidence=conf,
+                           resurfacing=[_hhmm(r) for r in item.get("resurfacing", []) if r])
         elif status == "closed":
-            out[day] = simple_day(CLOSED, url, note or "一般営業なし", confidence=conf)
+            rec = simple_day(CLOSED, url, note or "一般営業なし", confidence=conf)
         else:
-            out[day] = simple_day(UNKNOWN, url, note or "読み取れませんでした。公式サイトで確認してください",
-                                  confidence="low")
+            rec = simple_day(UNKNOWN, url, note or "読み取れませんでした。公式サイトで確認してください",
+                             confidence="low")
+        rec.method = "ai"
+        for s in rec.sessions:
+            s.start, s.end = _hhmm(s.start), _hhmm(s.end)
+        out[day] = rec
     return out
+
+
+def _hhmm(value: str) -> str:
+    """"09:00" → "9:00"（他の施設の表記にそろえる）"""
+    m = re.match(r"\s*(\d{1,2}):(\d{2})", value or "")
+    return f"{int(m.group(1))}:{m.group(2)}" if m else value
 
 
 def fetch_monthly(rink: dict, start: dt.date, end: dt.date, today: dt.date, season=None) -> dict:
@@ -208,12 +218,14 @@ def apply_news_exceptions(rink: dict, planned: dict, today: dt.date, end: dt.dat
             continue
         if day not in out or out[day].status == OFF_SEASON:
             continue
-        note = (ex.get("note") or "").strip() or "お知らせ欄の情報"
+        note = "お知らせ欄より：" + ((ex.get("note") or "").strip() or "通常と異なる営業")
         if ex.get("status") == "closed":
             out[day] = simple_day(CLOSED, page_url, note, confidence="medium")
+            out[day].method = "ai"
         else:
-            sessions = [Session(s["start"], s["end"], "main", s.get("note", "") or "")
+            sessions = [Session(_hhmm(s["start"]), _hhmm(s["end"]), "main", s.get("note", "") or "")
                         for s in ex.get("sessions", []) if s.get("start") and s.get("end")]
             if sessions:
                 out[day] = open_day(sessions, page_url, note=note, confidence="medium")
+                out[day].method = "ai"
     return out
