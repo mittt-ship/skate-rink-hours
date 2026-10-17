@@ -2,18 +2,18 @@
  "days": {
   "2026-10-18": {
    "aqua": {
-    "basis": "planned",
+    "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
-    "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
+    "note": "千葉市民の日イベント アイススケート特別営業",
     "resurfacing": [],
     "sessions": [
      {
       "end": "18:00",
-      "note": "",
+      "note": "滑走料無料(貸靴別途400円)。混雑状況により入場規制の場合あり",
       "rink": "main",
-      "start": "9:00"
+      "start": "09:00"
      }
     ],
     "source_url": "http://www.aquarink-chiba.jp/news01/news.php",
@@ -22,7 +22,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "一般営業お休み：大会（エイワ杯2026年度関東大学アイスホッケーリーグ戦）",
     "resurfacing": [],
@@ -33,7 +33,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -51,7 +51,7 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "営業期間外",
     "resurfacing": [],
@@ -62,18 +62,25 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "本日の営業時間は9時以降に確認します",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
+    "sessions": [
+     {
+      "end": "16:00",
+      "note": "",
+      "rink": "main",
+      "start": "12:30"
+     }
+    ],
     "source_url": "https://www.seibu-leisure.co.jp/web/iceskate/index.html#a-06",
-    "status": "unknown"
+    "status": "open"
    },
    "jingu": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -91,7 +98,7 @@
    "kirifuri": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "一般休止",
     "resurfacing": [],
@@ -102,18 +109,18 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "note": "一般利用不可",
     "resurfacing": [],
     "sessions": [],
-    "source_url": "https://www.kose-sp.pref.yamanashi.jp/",
-    "status": "unknown"
+    "source_url": "https://www.kose-sp.pref.yamanashi.jp/wp-content/uploads/2025/12/ccd1aacbe4e0b307b72c69e6648f43d3.pdf",
+    "status": "closed"
    },
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -148,7 +155,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -172,18 +179,18 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "note": "貸切・一般滑走休み",
     "resurfacing": [],
     "sessions": [],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
-    "status": "unknown"
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
+    "status": "closed"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "一般滑走なし",
     "resurfacing": [],
@@ -194,7 +201,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -212,20 +219,30 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
-    "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://yokohama-icearena.jp/topics/?p=8216",
-    "status": "unknown"
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
+    "resurfacing": [
+     "12:15",
+     "14:15"
+    ],
+    "sessions": [
+     {
+      "end": "16:00",
+      "note": "ワンポイントレッスン12:30～（初心者対象、約30分、予約不要）",
+      "rink": "main",
+      "start": "10:00"
+     }
+    ],
+    "source_url": "https://yokohama-icearena.jp/wp/wp-content/uploads/2026/08/eedf774afa2a00247b72e33c4b954c18.pdf",
+    "status": "open"
    }
   },
   "2026-10-19": {
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -243,7 +260,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -261,7 +278,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -279,7 +296,7 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "営業期間外",
     "resurfacing": [],
@@ -290,18 +307,25 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "月間カレンダーが画像のため取得準備中",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "13:00"
+     }
+    ],
     "source_url": "https://www.seibu-leisure.co.jp/web/iceskate/index.html#a-06",
-    "status": "unknown"
+    "status": "open"
    },
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定",
     "resurfacing": [],
@@ -319,7 +343,7 @@
    "kirifuri": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "手入力の営業カレンダー",
     "resurfacing": [],
@@ -337,18 +361,18 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "note": "一般利用不可",
     "resurfacing": [],
     "sessions": [],
-    "source_url": "https://www.kose-sp.pref.yamanashi.jp/",
-    "status": "unknown"
+    "source_url": "https://www.kose-sp.pref.yamanashi.jp/wp-content/uploads/2025/12/ccd1aacbe4e0b307b72c69e6648f43d3.pdf",
+    "status": "closed"
    },
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -383,7 +407,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "専用利用の時間あり",
     "resurfacing": [],
@@ -407,18 +431,25 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "整氷なし",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "14:30"
+     }
+    ],
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
+    "status": "open"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "休館日",
     "resurfacing": [],
@@ -429,7 +460,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -447,20 +478,29 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
-    "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://yokohama-icearena.jp/topics/?p=8216",
-    "status": "unknown"
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
+    "resurfacing": [
+     "13:00"
+    ],
+    "sessions": [
+     {
+      "end": "16:00",
+      "note": "",
+      "rink": "main",
+      "start": "10:00"
+     }
+    ],
+    "source_url": "https://yokohama-icearena.jp/wp/wp-content/uploads/2026/08/eedf774afa2a00247b72e33c4b954c18.pdf",
+    "status": "open"
    }
   },
   "2026-10-20": {
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -478,7 +518,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -496,7 +536,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "教室貸切",
     "resurfacing": [],
@@ -506,30 +546,44 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "confidence": "medium",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "営業再開日",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "12:30-15:00はリンク2/3を小学校スケート教室で使用",
+      "rink": "main",
+      "start": "08:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1CtEAf9yxnohaQAaGc1M6CVTtclOvQFXW",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "月間カレンダーが画像のため取得準備中",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "12:00"
+     }
+    ],
     "source_url": "https://www.seibu-leisure.co.jp/web/iceskate/index.html#a-06",
-    "status": "unknown"
+    "status": "open"
    },
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定",
     "resurfacing": [],
@@ -547,7 +601,7 @@
    "kirifuri": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "手入力の営業カレンダー",
     "resurfacing": [],
@@ -565,18 +619,25 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://www.kose-sp.pref.yamanashi.jp/",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "16:45",
+      "note": "",
+      "rink": "main",
+      "start": "12:15"
+     }
+    ],
+    "source_url": "https://www.kose-sp.pref.yamanashi.jp/wp-content/uploads/2025/12/ccd1aacbe4e0b307b72c69e6648f43d3.pdf",
+    "status": "open"
    },
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -617,7 +678,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "メインリンクお休み",
     "resurfacing": [],
@@ -635,18 +696,25 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "整氷なし",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "14:30"
+     }
+    ],
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
+    "status": "open"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "",
     "resurfacing": [],
@@ -664,7 +732,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -682,20 +750,29 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
-    "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://yokohama-icearena.jp/topics/?p=8216",
-    "status": "unknown"
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
+    "resurfacing": [
+     "13:00"
+    ],
+    "sessions": [
+     {
+      "end": "16:00",
+      "note": "",
+      "rink": "main",
+      "start": "10:00"
+     }
+    ],
+    "source_url": "https://yokohama-icearena.jp/wp/wp-content/uploads/2026/08/eedf774afa2a00247b72e33c4b954c18.pdf",
+    "status": "open"
    }
   },
   "2026-10-21": {
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -713,7 +790,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -731,7 +808,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -748,30 +825,37 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "confidence": "medium",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "営業時間は表の見出し(8:30-19:30)による。この日の行に個別の時刻表記なし",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "9:00-11:30と12:30-15:00はリンク2/3を小学校スケート教室で使用",
+      "rink": "main",
+      "start": "08:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1CtEAf9yxnohaQAaGc1M6CVTtclOvQFXW",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
-    "note": "月間カレンダーが画像のため取得準備中",
+    "note": "一般滑走お休み",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://www.seibu-leisure.co.jp/web/iceskate/index.html#a-06",
-    "status": "unknown"
+    "status": "closed"
    },
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定",
     "resurfacing": [],
@@ -789,7 +873,7 @@
    "kirifuri": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "手入力の営業カレンダー",
     "resurfacing": [],
@@ -807,18 +891,25 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://www.kose-sp.pref.yamanashi.jp/",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "21:00",
+      "note": "",
+      "rink": "main",
+      "start": "15:15"
+     }
+    ],
+    "source_url": "https://www.kose-sp.pref.yamanashi.jp/wp-content/uploads/2025/12/ccd1aacbe4e0b307b72c69e6648f43d3.pdf",
+    "status": "open"
    },
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -853,7 +944,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -877,18 +968,25 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "整氷なし",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "14:30"
+     }
+    ],
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
+    "status": "open"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "",
     "resurfacing": [],
@@ -906,7 +1004,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "休場日",
     "resurfacing": [],
@@ -917,20 +1015,29 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
-    "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://yokohama-icearena.jp/topics/?p=8216",
-    "status": "unknown"
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
+    "resurfacing": [
+     "13:00"
+    ],
+    "sessions": [
+     {
+      "end": "16:00",
+      "note": "",
+      "rink": "main",
+      "start": "10:00"
+     }
+    ],
+    "source_url": "https://yokohama-icearena.jp/wp/wp-content/uploads/2026/08/eedf774afa2a00247b72e33c4b954c18.pdf",
+    "status": "open"
    }
   },
   "2026-10-22": {
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -948,7 +1055,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "一般営業お休み：貸切営業",
     "resurfacing": [],
@@ -959,7 +1066,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "教室貸切",
     "resurfacing": [],
@@ -969,30 +1076,37 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "confidence": "medium",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "08:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1CtEAf9yxnohaQAaGc1M6CVTtclOvQFXW",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
-    "note": "月間カレンダーが画像のため取得準備中",
+    "note": "一般滑走お休み",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://www.seibu-leisure.co.jp/web/iceskate/index.html#a-06",
-    "status": "unknown"
+    "status": "closed"
    },
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定",
     "resurfacing": [],
@@ -1010,7 +1124,7 @@
    "kirifuri": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "手入力の営業カレンダー",
     "resurfacing": [],
@@ -1028,18 +1142,18 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "note": "一般利用不可",
     "resurfacing": [],
     "sessions": [],
-    "source_url": "https://www.kose-sp.pref.yamanashi.jp/",
-    "status": "unknown"
+    "source_url": "https://www.kose-sp.pref.yamanashi.jp/wp-content/uploads/2025/12/ccd1aacbe4e0b307b72c69e6648f43d3.pdf",
+    "status": "closed"
    },
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -1074,7 +1188,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "メインリンクお休み",
     "resurfacing": [],
@@ -1092,18 +1206,25 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "整氷なし",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "14:30"
+     }
+    ],
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
+    "status": "open"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "一般滑走なし",
     "resurfacing": [],
@@ -1114,7 +1235,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -1132,20 +1253,29 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
-    "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://yokohama-icearena.jp/topics/?p=8216",
-    "status": "unknown"
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
+    "resurfacing": [
+     "15:45"
+    ],
+    "sessions": [
+     {
+      "end": "18:30",
+      "note": "",
+      "rink": "main",
+      "start": "12:30"
+     }
+    ],
+    "source_url": "https://yokohama-icearena.jp/wp/wp-content/uploads/2026/08/eedf774afa2a00247b72e33c4b954c18.pdf",
+    "status": "open"
    }
   },
   "2026-10-23": {
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -1163,7 +1293,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "一般営業お休み：貸切営業",
     "resurfacing": [],
@@ -1174,7 +1304,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -1191,30 +1321,37 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "confidence": "medium",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "10:00-11:00はサブリンクを近隣学校が使用(メインリンクは通常営業)。営業時間は見出しによる",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "",
+      "rink": "main",
+      "start": "08:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1CtEAf9yxnohaQAaGc1M6CVTtclOvQFXW",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
-    "note": "月間カレンダーが画像のため取得準備中",
+    "note": "一般滑走お休み",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://www.seibu-leisure.co.jp/web/iceskate/index.html#a-06",
-    "status": "unknown"
+    "status": "closed"
    },
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定",
     "resurfacing": [],
@@ -1232,7 +1369,7 @@
    "kirifuri": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "手入力の営業カレンダー",
     "resurfacing": [],
@@ -1250,18 +1387,18 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "note": "一般利用不可",
     "resurfacing": [],
     "sessions": [],
-    "source_url": "https://www.kose-sp.pref.yamanashi.jp/",
-    "status": "unknown"
+    "source_url": "https://www.kose-sp.pref.yamanashi.jp/wp-content/uploads/2025/12/ccd1aacbe4e0b307b72c69e6648f43d3.pdf",
+    "status": "closed"
    },
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -1296,7 +1433,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -1320,18 +1457,18 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "note": "貸切・一般滑走休み",
     "resurfacing": [],
     "sessions": [],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
-    "status": "unknown"
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
+    "status": "closed"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "",
     "resurfacing": [],
@@ -1349,7 +1486,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -1367,20 +1504,29 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
-    "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://yokohama-icearena.jp/topics/?p=8216",
-    "status": "unknown"
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
+    "resurfacing": [
+     "15:45"
+    ],
+    "sessions": [
+     {
+      "end": "18:30",
+      "note": "",
+      "rink": "main",
+      "start": "12:30"
+     }
+    ],
+    "source_url": "https://yokohama-icearena.jp/wp/wp-content/uploads/2026/08/eedf774afa2a00247b72e33c4b954c18.pdf",
+    "status": "open"
    }
   },
   "2026-10-24": {
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -1398,7 +1544,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "一般営業お休み：大会（エイワ杯2026年度関東大学アイスホッケーリーグ戦）",
     "resurfacing": [],
@@ -1409,7 +1555,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "アイスホッケー小学生大会のため お休み※無料観覧",
     "resurfacing": [],
@@ -1419,30 +1565,44 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "confidence": "medium",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "スケート感謝デー",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "スケート感謝デー。利用料金無料(貸靴は有料)",
+      "rink": "main",
+      "start": "08:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1CtEAf9yxnohaQAaGc1M6CVTtclOvQFXW",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "月間カレンダーが画像のため取得準備中",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
+    "sessions": [
+     {
+      "end": "15:30",
+      "note": "",
+      "rink": "main",
+      "start": "13:00"
+     }
+    ],
     "source_url": "https://www.seibu-leisure.co.jp/web/iceskate/index.html#a-06",
-    "status": "unknown"
+    "status": "open"
    },
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定",
     "resurfacing": [],
@@ -1460,7 +1620,7 @@
    "kirifuri": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "手入力の営業カレンダー",
     "resurfacing": [],
@@ -1478,18 +1638,25 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "高校生以下滑走無料は滑走料のみ。貸し靴等は別料金",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://www.kose-sp.pref.yamanashi.jp/",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "高校生以下滑走無料",
+      "rink": "main",
+      "start": "09:30"
+     }
+    ],
+    "source_url": "https://www.kose-sp.pref.yamanashi.jp/wp-content/uploads/2025/12/ccd1aacbe4e0b307b72c69e6648f43d3.pdf",
+    "status": "open"
    },
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -1524,7 +1691,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -1548,18 +1715,18 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "note": "貸切・一般滑走休み",
     "resurfacing": [],
     "sessions": [],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
-    "status": "unknown"
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
+    "status": "closed"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "",
     "resurfacing": [],
@@ -1577,7 +1744,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -1595,20 +1762,30 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
-    "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://yokohama-icearena.jp/topics/?p=8216",
-    "status": "unknown"
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
+    "resurfacing": [
+     "12:15",
+     "14:15"
+    ],
+    "sessions": [
+     {
+      "end": "16:00",
+      "note": "",
+      "rink": "main",
+      "start": "10:00"
+     }
+    ],
+    "source_url": "https://yokohama-icearena.jp/wp/wp-content/uploads/2026/08/eedf774afa2a00247b72e33c4b954c18.pdf",
+    "status": "open"
    }
   },
   "2026-10-25": {
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -1626,7 +1803,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "一般営業お休み：大会（エイワ杯2026年度関東大学アイスホッケーリーグ戦）",
     "resurfacing": [],
@@ -1637,7 +1814,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "アイスホッケー小学生大会のため お休み※無料観覧",
     "resurfacing": [],
@@ -1647,30 +1824,44 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "confidence": "medium",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "7:00-9:00は早朝スケート教室(一般営業外)",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "10:30-15:30は指導員が巡回レッスン",
+      "rink": "main",
+      "start": "09:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1CtEAf9yxnohaQAaGc1M6CVTtclOvQFXW",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "月間カレンダーが画像のため取得準備中",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
+    "sessions": [
+     {
+      "end": "16:00",
+      "note": "",
+      "rink": "main",
+      "start": "12:30"
+     }
+    ],
     "source_url": "https://www.seibu-leisure.co.jp/web/iceskate/index.html#a-06",
-    "status": "unknown"
+    "status": "open"
    },
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定",
     "resurfacing": [],
@@ -1688,7 +1879,7 @@
    "kirifuri": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "手入力の営業カレンダー",
     "resurfacing": [],
@@ -1706,18 +1897,25 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://www.kose-sp.pref.yamanashi.jp/",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "09:30"
+     }
+    ],
+    "source_url": "https://www.kose-sp.pref.yamanashi.jp/wp-content/uploads/2025/12/ccd1aacbe4e0b307b72c69e6648f43d3.pdf",
+    "status": "open"
    },
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -1752,7 +1950,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -1776,18 +1974,18 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "note": "貸切・一般滑走休み",
     "resurfacing": [],
     "sessions": [],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
-    "status": "unknown"
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
+    "status": "closed"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "一般滑走なし",
     "resurfacing": [],
@@ -1796,40 +1994,43 @@
     "status": "closed"
    },
    "utsunomiya": {
-    "basis": "planned",
+    "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": true,
-    "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": false,
+    "note": "大会貸切のため終日貸切（一般開放なし）",
     "resurfacing": [],
-    "sessions": [
-     {
-      "end": "17:00",
-      "note": "",
-      "rink": "main",
-      "start": "9:00"
-     }
-    ],
+    "sessions": [],
     "source_url": "https://www.miya-sp.jp/topics/news/",
-    "status": "open"
+    "status": "closed"
    },
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
-    "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://yokohama-icearena.jp/topics/?p=8216",
-    "status": "unknown"
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
+    "resurfacing": [
+     "12:15",
+     "14:15"
+    ],
+    "sessions": [
+     {
+      "end": "16:00",
+      "note": "ワンポイントレッスン12:30～（初心者対象、約30分、予約不要）",
+      "rink": "main",
+      "start": "10:00"
+     }
+    ],
+    "source_url": "https://yokohama-icearena.jp/wp/wp-content/uploads/2026/08/eedf774afa2a00247b72e33c4b954c18.pdf",
+    "status": "open"
    }
   },
   "2026-10-26": {
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -1847,7 +2048,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -1865,7 +2066,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -1882,30 +2083,44 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "confidence": "medium",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "営業時間は表の見出しによる。この日の行に個別の時刻表記なし",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "",
+      "rink": "main",
+      "start": "08:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1CtEAf9yxnohaQAaGc1M6CVTtclOvQFXW",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "月間カレンダーが画像のため取得準備中",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "13:00"
+     }
+    ],
     "source_url": "https://www.seibu-leisure.co.jp/web/iceskate/index.html#a-06",
-    "status": "unknown"
+    "status": "open"
    },
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定",
     "resurfacing": [],
@@ -1923,7 +2138,7 @@
    "kirifuri": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "手入力の営業カレンダー",
     "resurfacing": [],
@@ -1941,18 +2156,25 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://www.kose-sp.pref.yamanashi.jp/",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "17:15",
+      "note": "",
+      "rink": "main",
+      "start": "09:00"
+     }
+    ],
+    "source_url": "https://www.kose-sp.pref.yamanashi.jp/wp-content/uploads/2025/12/ccd1aacbe4e0b307b72c69e6648f43d3.pdf",
+    "status": "open"
    },
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "休館日 / 休館日",
     "resurfacing": [],
@@ -1974,7 +2196,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "専用利用の時間あり",
     "resurfacing": [],
@@ -1998,18 +2220,25 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "整氷なし",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "14:30"
+     }
+    ],
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
+    "status": "open"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "",
     "resurfacing": [],
@@ -2027,7 +2256,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -2045,20 +2274,20 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "note": "休業（施設点検日）",
     "resurfacing": [],
     "sessions": [],
-    "source_url": "https://yokohama-icearena.jp/topics/?p=8216",
-    "status": "unknown"
+    "source_url": "https://yokohama-icearena.jp/wp/wp-content/uploads/2026/08/eedf774afa2a00247b72e33c4b954c18.pdf",
+    "status": "closed"
    }
   },
   "2026-10-27": {
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -2076,7 +2305,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -2094,7 +2323,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "教室貸切",
     "resurfacing": [],
@@ -2104,30 +2333,44 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "confidence": "medium",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "18:00-19:30はジュニアスケート教室(アイスホッケー)のため一般営業外",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "9:00-11:30はリンク2/3を小学校スケート教室で使用",
+      "rink": "main",
+      "start": "08:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1CtEAf9yxnohaQAaGc1M6CVTtclOvQFXW",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "月間カレンダーが画像のため取得準備中",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "12:00"
+     }
+    ],
     "source_url": "https://www.seibu-leisure.co.jp/web/iceskate/index.html#a-06",
-    "status": "unknown"
+    "status": "open"
    },
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定",
     "resurfacing": [],
@@ -2145,7 +2388,7 @@
    "kirifuri": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "手入力の営業カレンダー",
     "resurfacing": [],
@@ -2163,18 +2406,25 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://www.kose-sp.pref.yamanashi.jp/",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "16:45",
+      "note": "",
+      "rink": "main",
+      "start": "09:00"
+     }
+    ],
+    "source_url": "https://www.kose-sp.pref.yamanashi.jp/wp-content/uploads/2025/12/ccd1aacbe4e0b307b72c69e6648f43d3.pdf",
+    "status": "open"
    },
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -2209,7 +2459,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "専用利用の時間あり",
     "resurfacing": [],
@@ -2233,18 +2483,25 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "整氷なし",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "14:30"
+     }
+    ],
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
+    "status": "open"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "",
     "resurfacing": [],
@@ -2262,7 +2519,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -2280,20 +2537,29 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
-    "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://yokohama-icearena.jp/topics/?p=8216",
-    "status": "unknown"
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
+    "resurfacing": [
+     "13:00"
+    ],
+    "sessions": [
+     {
+      "end": "16:00",
+      "note": "",
+      "rink": "main",
+      "start": "10:00"
+     }
+    ],
+    "source_url": "https://yokohama-icearena.jp/wp/wp-content/uploads/2026/08/eedf774afa2a00247b72e33c4b954c18.pdf",
+    "status": "open"
    }
   },
   "2026-10-28": {
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -2311,7 +2577,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -2329,7 +2595,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -2346,30 +2612,44 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "confidence": "medium",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "営業時間は表の見出しによる",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "12:30-15:00はリンク2/3を小学校スケート教室で使用",
+      "rink": "main",
+      "start": "08:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1CtEAf9yxnohaQAaGc1M6CVTtclOvQFXW",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "月間カレンダーが画像のため取得準備中",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
+    "sessions": [
+     {
+      "end": "16:00",
+      "note": "",
+      "rink": "main",
+      "start": "13:00"
+     }
+    ],
     "source_url": "https://www.seibu-leisure.co.jp/web/iceskate/index.html#a-06",
-    "status": "unknown"
+    "status": "open"
    },
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定",
     "resurfacing": [],
@@ -2387,7 +2667,7 @@
    "kirifuri": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "手入力の営業カレンダー",
     "resurfacing": [],
@@ -2405,18 +2685,25 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://www.kose-sp.pref.yamanashi.jp/",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "21:00",
+      "note": "",
+      "rink": "main",
+      "start": "09:00"
+     }
+    ],
+    "source_url": "https://www.kose-sp.pref.yamanashi.jp/wp-content/uploads/2025/12/ccd1aacbe4e0b307b72c69e6648f43d3.pdf",
+    "status": "open"
    },
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -2451,7 +2738,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -2475,18 +2762,25 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "整氷なし",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "14:30"
+     }
+    ],
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
+    "status": "open"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "一般滑走なし",
     "resurfacing": [],
@@ -2497,7 +2791,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "休場日",
     "resurfacing": [],
@@ -2508,20 +2802,29 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
-    "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://yokohama-icearena.jp/topics/?p=8216",
-    "status": "unknown"
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
+    "resurfacing": [
+     "13:00"
+    ],
+    "sessions": [
+     {
+      "end": "16:00",
+      "note": "",
+      "rink": "main",
+      "start": "10:00"
+     }
+    ],
+    "source_url": "https://yokohama-icearena.jp/wp/wp-content/uploads/2026/08/eedf774afa2a00247b72e33c4b954c18.pdf",
+    "status": "open"
    }
   },
   "2026-10-29": {
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -2539,7 +2842,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -2557,7 +2860,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "教室貸切",
     "resurfacing": [],
@@ -2567,30 +2870,44 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "confidence": "medium",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "18:00-19:30はジュニアスケート教室(フィギュア・スピード)のため一般営業外",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "9:00-11:30はリンク2/3を小学校スケート教室で使用",
+      "rink": "main",
+      "start": "08:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1CtEAf9yxnohaQAaGc1M6CVTtclOvQFXW",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "月間カレンダーが画像のため取得準備中",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
+    "sessions": [
+     {
+      "end": "17:00",
+      "note": "",
+      "rink": "main",
+      "start": "12:00"
+     }
+    ],
     "source_url": "https://www.seibu-leisure.co.jp/web/iceskate/index.html#a-06",
-    "status": "unknown"
+    "status": "open"
    },
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定",
     "resurfacing": [],
@@ -2608,7 +2925,7 @@
    "kirifuri": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "手入力の営業カレンダー",
     "resurfacing": [],
@@ -2626,18 +2943,18 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "note": "一般利用不可",
     "resurfacing": [],
     "sessions": [],
-    "source_url": "https://www.kose-sp.pref.yamanashi.jp/",
-    "status": "unknown"
+    "source_url": "https://www.kose-sp.pref.yamanashi.jp/wp-content/uploads/2025/12/ccd1aacbe4e0b307b72c69e6648f43d3.pdf",
+    "status": "closed"
    },
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -2672,7 +2989,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "メインリンクお休み",
     "resurfacing": [],
@@ -2690,18 +3007,25 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "整氷なし",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "14:30"
+     }
+    ],
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
+    "status": "open"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "一般滑走なし",
     "resurfacing": [],
@@ -2712,7 +3036,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -2730,20 +3054,29 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
-    "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://yokohama-icearena.jp/topics/?p=8216",
-    "status": "unknown"
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
+    "resurfacing": [
+     "15:45"
+    ],
+    "sessions": [
+     {
+      "end": "18:30",
+      "note": "",
+      "rink": "main",
+      "start": "12:30"
+     }
+    ],
+    "source_url": "https://yokohama-icearena.jp/wp/wp-content/uploads/2026/08/eedf774afa2a00247b72e33c4b954c18.pdf",
+    "status": "open"
    }
   },
   "2026-10-30": {
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -2761,7 +3094,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -2779,7 +3112,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -2796,30 +3129,44 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "confidence": "medium",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "営業時間は表の見出しによる。この日の行に個別の時刻表記なし",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "",
+      "rink": "main",
+      "start": "08:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1CtEAf9yxnohaQAaGc1M6CVTtclOvQFXW",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "月間カレンダーが画像のため取得準備中",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "12:00"
+     }
+    ],
     "source_url": "https://www.seibu-leisure.co.jp/web/iceskate/index.html#a-06",
-    "status": "unknown"
+    "status": "open"
    },
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定",
     "resurfacing": [],
@@ -2837,7 +3184,7 @@
    "kirifuri": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "手入力の営業カレンダー",
     "resurfacing": [],
@@ -2855,18 +3202,25 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://www.kose-sp.pref.yamanashi.jp/",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "09:00"
+     }
+    ],
+    "source_url": "https://www.kose-sp.pref.yamanashi.jp/wp-content/uploads/2025/12/ccd1aacbe4e0b307b72c69e6648f43d3.pdf",
+    "status": "open"
    },
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -2901,7 +3255,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -2925,18 +3279,25 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "整氷なし",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "14:30"
+     }
+    ],
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
+    "status": "open"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -2960,7 +3321,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -2978,20 +3339,29 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
-    "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://yokohama-icearena.jp/topics/?p=8216",
-    "status": "unknown"
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
+    "resurfacing": [
+     "15:45"
+    ],
+    "sessions": [
+     {
+      "end": "18:30",
+      "note": "",
+      "rink": "main",
+      "start": "12:30"
+     }
+    ],
+    "source_url": "https://yokohama-icearena.jp/wp/wp-content/uploads/2026/08/eedf774afa2a00247b72e33c4b954c18.pdf",
+    "status": "open"
    }
   },
   "2026-10-31": {
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -3009,7 +3379,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "一般営業お休み：大会（エイワ杯2026年度関東大学アイスホッケーリーグ戦）",
     "resurfacing": [],
@@ -3020,7 +3390,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -3037,30 +3407,44 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "confidence": "medium",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "営業時間は表の見出しによる。この日の行に個別の時刻表記なし",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unknown"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "",
+      "rink": "main",
+      "start": "08:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1CtEAf9yxnohaQAaGc1M6CVTtclOvQFXW",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "月間カレンダーが画像のため取得準備中",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
+    "sessions": [
+     {
+      "end": "15:30",
+      "note": "",
+      "rink": "main",
+      "start": "13:15"
+     }
+    ],
     "source_url": "https://www.seibu-leisure.co.jp/web/iceskate/index.html#a-06",
-    "status": "unknown"
+    "status": "open"
    },
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定",
     "resurfacing": [],
@@ -3078,7 +3462,7 @@
    "kirifuri": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "手入力の営業カレンダー",
     "resurfacing": [],
@@ -3096,18 +3480,18 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "note": "一般利用不可",
     "resurfacing": [],
     "sessions": [],
-    "source_url": "https://www.kose-sp.pref.yamanashi.jp/",
-    "status": "unknown"
+    "source_url": "https://www.kose-sp.pref.yamanashi.jp/wp-content/uploads/2025/12/ccd1aacbe4e0b307b72c69e6648f43d3.pdf",
+    "status": "closed"
    },
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -3142,7 +3526,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "",
     "resurfacing": [],
@@ -3166,18 +3550,18 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "note": "貸切・一般滑走休み",
     "resurfacing": [],
     "sessions": [],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
-    "status": "unknown"
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
+    "status": "closed"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": false,
     "note": "一般滑走なし",
     "resurfacing": [],
@@ -3188,7 +3572,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:19:40+09:00",
     "main_open": true,
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
@@ -3206,13 +3590,23 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
-    "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
-    "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://yokohama-icearena.jp/topics/?p=8216",
-    "status": "unknown"
+    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "main_open": true,
+    "note": "",
+    "resurfacing": [
+     "12:15",
+     "14:15"
+    ],
+    "sessions": [
+     {
+      "end": "16:00",
+      "note": "",
+      "rink": "main",
+      "start": "10:00"
+     }
+    ],
+    "source_url": "https://yokohama-icearena.jp/wp/wp-content/uploads/2026/08/eedf774afa2a00247b72e33c4b954c18.pdf",
+    "status": "open"
    }
   }
  },
