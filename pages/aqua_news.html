@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>一覧ページ</title>
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+<!--▼▼CSSとポップアップ用JS。既存ページ埋め込み時　要コピペ（head部分）▼▼-->
+<style type="text/css">
+/* CSSは必要最低限しか指定してませんのでお好みで（もちろん外部化OK） */
+
+/* clearfix */
+.clearfix:after { content:"."; display:block; clear:both; height:0; visibility:hidden; }
+.clearfix { display:inline-block; }
+
+/* for macIE \*/
+* html .clearfix { height:1%; }
+.clearfix { display:block; }
+
+ul#newsList{
+	margin:0 0 15px;
+	padding:0;
+	font-family:"メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+ul#newsList li{
+	color:#666;
+	font-size:13px;
+	margin:0;
+	padding: 10px 0px 10px 0px;
+	margin-bottom:4px;
+	border-bottom:1px dotted #ccc;
+	line-height:160%;
+	list-style-type:none;
+}
+
+.title{
+	color:#666;
+	font-size:14px;
+	font-weight: bold;
+	margin:0;
+	padding:5px 0;
+	margin-bottom:6px;
+	
+	line-height:160%;
+	list-style-type:none;
+}
+
+a{color:#36F;text-decoration:underline;}
+a:hover{color:#039;text-decoration:none;}
+
+.catName{
+	display:inline-block;
+	padding:3px 8px;
+	border:1px solid #ccc;
+	border-radius:6px;
+	font-size:11px;
+	line-height:100%;
+	margin:0 2px;
+}
+.newMark{
+	display:inline-block;
+	border:1px solid #F00;
+	padding:1px 4px;
+	font-size:11px;
+	line-height:100%;
+	background:#F00;
+	color:#fff;
+	box-shadow:1px 1px 1px #999;
+	border-radius:8px;
+	font-style:italic;
+}
+.comment{
+	display:block;
+	padding:3px 0;
+	float:left;
+	overflow:hidden;
+	width:700px;/* 本文部分の幅。ここは特に設置ページ合わせて変更下さい */
+}
+.thumbNailWrap{
+	display:block;
+	width:110px;
+	float:left;
+	height:80px;
+	overflow:hidden;
+}
+
+/* Pager style（外部化可） */
+.pager{
+	text-align:right;
+	padding:10px;
+	clear:both;
+}
+/*ページャーボタン*/
+.pager a{
+    border: 1px solid #999;
+    border-radius: 5px 5px 5px 5px;
+    color: #333;
+    font-size: 12px;
+    padding: 3px 7px 2px;
+    text-decoration: none;
+	margin:0 1px;
+}
+
+/*現在のページのボタン*/
+.pager a.current{
+    background: #999;
+    border: 1px solid #999;
+    border-radius: 5px 5px 5px 5px;
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 7px 2px;
+	margin:0 1px;
+    text-decoration: none;
+}
+
+.pager a:hover{
+    background:#999;
+    color: #fff;
+}
+
+.overPagerPattern{
+	padding:0 2px ;	
+}
+
+/* /Pager style */
+</style>
+
+<script type="text/javascript">
+<!--
+function openwin(url) {//PC用ポップアップ。ウインドウの幅、高さなど自由に編集できます（ポップアップで開く場合のみ）
+ wn = window.open(url, 'win','width=680,height=550,status=no,location=no,scrollbars=yes,directories=no,menubar=no,resizable=no,toolbar=no');wn.focus();
+}
+-->
+</script>
+<!--▲▲CSSとポップアップ用JS。既存ページ埋め込み時　要コピペ（head部分）▲▲-->
+
+</head>
+<body>
+
+<!--▼▼既存ページ埋め込み時はここから以下をコピーして任意の場所に貼り付けてください（html部は自由に編集可。不要なものは削除可です）▼▼-->
+<div id="newsWrap">
+
+<ul id="newsList">
+
+
+<li id="postID_69" class="cat- clearfix">
+<span class="up_ymd">2026年10月14日</span>
+<br>
+<span class="title">【千葉市民の日イベント開催のお知らせ】</span>
+<br>
+<!-- コメントと画像をすべて表示する（ここから） -->
+<div id="detail">
+<div class="detailText"><font size="2"><b>10月18日（日）アイススケート特別営業</b></font><div><font size="2"><b>滑走料が無料になります（貸靴別途＠400）</b></font></div><div><font size="2"><b>＊混雑状況により入場規制になる場合があります、予めご了承下さい。</b></font></div><div><font size="2"><b>ご来場お待ちしております。</b></font></div></div>
+<div class="detailUpfile"><img src="./pkobo_news/upload/69-0.jpg?6ad3915d94581" /></div>
+</div>
+<!-- コメントと画像をすべて表示する（ここまで） -->
+
+
+
+
+</li>
+
+
+<li id="postID_68" class="cat- clearfix">
+<span class="up_ymd">2026年10月5日</span>
+<br>
+<span class="title">【１１月分のスケート教室の申し込み受付開始】</span>
+<br>
+<!-- コメントと画像をすべて表示する（ここから） -->
+<div id="detail">
+<div class="detailText"><div style=""><span style="font-size: 13.3333px; color: rgb(34, 34, 34);">　１１月分のスケート教室は、１０月５日（月）から受け付けを開始します。参加ご希望の方は<b>教室名と開催日等内容をご確認のうえ</b>、<b>１０月２０日(火)まで</b>にホームページのスケート教室内にある応募フォームよりお申し込み下さい。</span></div></div>
+<div class="detailUpfile"><a href="./pkobo_news/upload/68-0.pdf" target="_blank">PDFファイル</a></div>
+</div>
+<!-- コメントと画像をすべて表示する（ここまで） -->
+
+
+
+
+</li>
+
+
+<li id="postID_63" class="cat- clearfix">
+<span class="up_ymd">2026年3月14日</span>
+<br>
+<span class="title">【臨時駐車場閉鎖のお知らせ】</span>
+<br>
+<!-- コメントと画像をすべて表示する（ここから） -->
+<div id="detail">
+<div class="detailText"><div>　この度、新港清掃工場のリニューアル工事に伴い、工事車両の搬入及び資材置き場の確保のため臨時駐車場（施設正面緑地帯）を閉鎖いたします。</div><div>　令和8年4月6日より施設内駐車場は<b>67台(平日）</b>になります、数に限りがありますので、なるべくバスをご利用ください。</div><div>＊臨時駐車場（土日祝）約50台</div><div>＊詳細及びバス時刻表は下記ファイルで確認できます。</div><div><br></div></div>
+<div class="detailUpfile"><a href="./pkobo_news/upload/63-0.pdf" target="_blank">PDFファイル</a></div>
+</div>
+<!-- コメントと画像をすべて表示する（ここまで） -->
+
+
+
+
+</li>
+
+
+<li id="postID_55" class="cat- clearfix">
+<span class="up_ymd">2025年12月24日</span>
+<br>
+<span class="title">【アクアゾーン温浴施設の廃止について】</span>
+<br>
+<!-- コメントと画像をすべて表示する（ここから） -->
+<div id="detail">
+<div class="detailText"><font size="4" style="color: rgb(34, 34, 34);"><b>アクアゾーン温浴施設（廃止）</b></font><div style=""><font size="4" style="" color="#ff6666"><b style="">令和8年２月1日（日）最終利用日決定</b></font></div><div style="color: rgb(34, 34, 34);"><b style="">ご利用の皆様には、ご不便をおかけすることになりますが</b></div><div style="color: rgb(34, 34, 34);"><b style="">ご理解いただきますようお願い申し上げます。</b></div><div style="color: rgb(34, 34, 34);"><b style="">これまで長きにわたりご利用いただきありがとうございます。</b></div><div style="color: rgb(34, 34, 34);"><b style="">*詳しい詳細は下記ＰＤＦでご確認できます</b></div><div style="color: rgb(34, 34, 34);"><font size="4"><b><br></b></font></div></div>
+<div class="detailUpfile"><a href="./pkobo_news/upload/55-0.pdf" target="_blank">PDFファイル</a></div>
+</div>
+<!-- コメントと画像をすべて表示する（ここまで） -->
+
+
+
+
+</li>
+
+
+<li id="postID_44" class="cat- clearfix">
+<span class="up_ymd">2022年1月10日</span>
+<br>
+<span class="title">【回数券有効期限なしについて】</span>
+<br>
+<!-- コメントと画像をすべて表示する（ここから） -->
+<div id="detail">
+<div class="detailText"><b style=""><font color="#222222">2019年9月8日以前の発券分について、台風被害休館、改修工事休館、緊急事態宣言休館において、再々の延長措置を行い、</font><font color="#ff6666">2021年9月30日をもって使用期限を終了いたしました。</font></b><div style="color: rgb(34, 34, 34);"><b>ご理解、ご了承の程お願い申し上げます。</b></div></div>
+<div class="detailUpfile"></div>
+</div>
+<!-- コメントと画像をすべて表示する（ここまで） -->
+
+
+
+
+</li>
+
+
+</ul>
+
+</div>
+<!-- <a style="display:block;text-align:center;margin:15px 0;font-size:11px;color:#aaa;text-decoration:none" href="http://www.php-factory.net/" target="_blank">- Powered by PHP工房 -</a> -->
+
+<!--▲▲既存ページ埋め込み時　コピーここまで▲▲-->
+
+</body>
+</html>
