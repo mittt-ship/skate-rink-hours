@@ -1,0 +1,4 @@
+beautifulsoup4==4.12.3
+icalendar==6.1.0
+recurring-ical-events==3.3.3
+holidays==0.58

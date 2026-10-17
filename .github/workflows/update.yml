@@ -1,0 +1,51 @@
+name: 営業時間の更新
+
+on:
+  schedule:
+    # 日本時間 5:05 / 12:05 / 18:05（GitHub ActionsはUTCで指定。混雑時は数分〜十数分遅れることがある）
+    - cron: "5 20 * * *"
+    - cron: "5 3 * * *"
+    - cron: "5 9 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - skate/**
+      - scripts/fetch.py
+      - requirements.txt
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: 必要なライブラリを入れる
+        run: pip install -r requirements.txt pytest
+      - name: 読み取りルールのテスト
+        run: python -m pytest -q -p no:warnings tests
+      - name: 営業時間を取得
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MANUAL_SHEET_CSV_URL: https://docs.google.com/spreadsheets/d/e/2PACX-1vTsUr65zkeUa-BLk20VUzHMZ6FOxVlR-3gTuXBMUBBDUTxHt8aO8Gp07LxsaiDLiRbHC6ZjJcKpT273/pub?gid=0&single=true&output=csv
+        run: python scripts/fetch.py
+      - name: 取得結果を保存
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          if git diff --cached --quiet; then echo "変更なし"; exit 0; fi
+          git commit -qm "営業時間を更新 $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M')"
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; sleep 5; done
+          exit 1

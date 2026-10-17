@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>滑れるリンク</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@700;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    color-scheme: light;
+    --ground: #EEF3F7; --card: #FFFFFF; --ink: #0F1E2C; --muted: #4A5B6C; --line: #E3E8ED;
+    --navy: #0F2A44; --navy2: #1D3F61; --pale: #BFD6EE;
+    --main: #1B5FAA; --main-bg: #E1ECF8; --main-ink: #123F73;
+    --sub: #D9822B; --sub-bg: #FDEBD8; --sub-ink: #8A4300;
+    --off: #8A99A8; --off-bg: #E3E8ED; --off-ink: #3B4B5A;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ground); color: var(--ink); font-family: 'Noto Sans JP', sans-serif; -webkit-text-size-adjust: 100%; }
+  a { color: var(--main); } a:hover { color: var(--main-ink); }
+  button { font-family: inherit; }
+  .wrap { max-width: 560px; margin: 0 auto; min-height: 100vh; display: flex; flex-direction: column; }
+  header { background: var(--navy); color: #fff; padding: 18px 16px 16px; display: flex; flex-direction: column; gap: 14px; }
+  .brand { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--pale); }
+  .brand b { font-family: 'Zen Kaku Gothic New', sans-serif; font-weight: 900; font-size: 15px; letter-spacing: .08em; }
+  .daterow { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; }
+  h1 { margin: 0; font-family: 'Zen Kaku Gothic New', sans-serif; font-weight: 900; font-size: 30px; line-height: 1.1; }
+  h1 small { font-size: 18px; font-weight: 700; margin-left: 4px; }
+  .pick { display: flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 14px; border-radius: 22px; border: 0; background: #fff; color: var(--navy); font-size: 14px; font-weight: 700; cursor: pointer; }
+  .tabs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; background: var(--navy2); padding: 4px; border-radius: 12px; }
+  .tabs button { min-height: 44px; border: 0; border-radius: 9px; background: transparent; color: #fff; font-size: 15px; font-weight: 500; cursor: pointer; }
+  .tabs button[aria-selected="true"] { background: #fff; color: var(--navy); font-weight: 700; }
+  .badge-past { display: inline-block; margin-top: 2px; font-size: 12px; color: var(--pale); }
+  .summary { padding: 16px 16px 4px; display: flex; gap: 8px; flex-wrap: wrap; font-size: 13px; }
+  .summary span { display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px; border-radius: 8px; background: #fff; }
+  .dot { width: 10px; height: 10px; border-radius: 5px; display: inline-block; }
+  .filters { padding: 8px 16px 0; display: flex; gap: 8px; }
+  .filters button { min-height: 40px; padding: 0 14px; border-radius: 20px; border: 1.5px solid #9AAABB; background: #fff; color: var(--ink); font-size: 13px; cursor: pointer; }
+  .filters button[aria-pressed="true"] { border-color: var(--navy); background: var(--navy); color: #fff; font-weight: 700; }
+  section.group { padding: 8px 16px; display: flex; flex-direction: column; gap: 10px; }
+  section.group h2 { margin: 8px 0 0; font-size: 14px; font-weight: 700; letter-spacing: .04em; }
+  .card { background: var(--card); border-radius: 14px; padding: 14px 14px 12px; display: flex; flex-direction: column; gap: 10px; box-shadow: 0 1px 2px rgba(15,30,44,.08); }
+  .card.dim { background: #F7F9FB; border: 1px solid #DCE3EA; box-shadow: none; padding: 12px 14px; gap: 6px; }
+  .top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+  .name { font-size: 16px; font-weight: 700; line-height: 1.35; }
+  .dim .name { font-size: 15px; color: #2C3A48; }
+  .place { font-size: 12px; color: var(--muted); }
+  .badge { flex-shrink: 0; padding: 4px 9px; border-radius: 6px; font-size: 12px; font-weight: 700; white-space: nowrap; }
+  .b-main { background: var(--main); color: #fff; } .b-sub { background: var(--sub-bg); color: var(--sub-ink); }
+  .b-off { background: var(--off-bg); color: var(--off-ink); }
+  .b-plan { background: #fff; color: var(--main-ink); border: 1.5px dashed var(--main); }
+  .sessions { display: flex; flex-direction: column; gap: 6px; }
+  .s { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .tag { width: 40px; text-align: center; padding: 2px 0; border-radius: 4px; font-size: 12px; font-weight: 700; }
+  .t-main { background: var(--main-bg); color: var(--main-ink); } .t-sub { background: var(--sub-bg); color: var(--sub-ink); }
+  .time { font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: .01em; }
+  .planned .time { color: #3E5F82; }
+  .snote { font-size: 12px; color: var(--muted); }
+  .small { font-size: 12px; color: var(--muted); line-height: 1.6; }
+  .warn { font-size: 12px; font-weight: 700; color: var(--sub-ink); background: var(--sub-bg); padding: 6px 8px; border-radius: 6px; }
+  .foot { display: flex; justify-content: space-between; align-items: center; gap: 8px; border-top: 1px solid var(--line); padding-top: 8px; font-size: 12px; }
+  .dim .foot { border-top: 0; padding-top: 0; }
+  .foot a { font-weight: 700; text-decoration: none; }
+  .foot span { color: var(--muted); }
+  .empty { margin: 24px 16px; padding: 20px; background: #fff; border-radius: 14px; text-align: center; color: var(--muted); font-size: 14px; }
+  footer { margin-top: auto; padding: 20px 16px 32px; font-size: 12px; line-height: 1.7; color: var(--muted); }
+  /* カレンダー */
+  .cal { position: fixed; inset: 0; background: var(--ground); overflow-y: auto; z-index: 10; }
+  .cal[hidden] { display: none; }
+  .cal-head { background: var(--navy); color: #fff; padding: 12px 8px 14px; display: flex; align-items: center; gap: 4px; position: sticky; top: 0; }
+  .cal-head button { width: 44px; height: 44px; border: 0; background: transparent; color: #fff; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+  .cal-head h2 { margin: 0; font-family: 'Zen Kaku Gothic New', sans-serif; font-weight: 900; font-size: 20px; }
+  .cal-body { max-width: 560px; margin: 0 auto; padding-bottom: 32px; }
+  .legend { padding: 12px 16px 4px; display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: #2C3A48; }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .month { margin: 8px 16px; background: #fff; border-radius: 14px; padding: 14px 10px 12px; box-shadow: 0 1px 2px rgba(15,30,44,.08); }
+  .month h3 { margin: 0 6px 10px; font-family: 'Zen Kaku Gothic New', sans-serif; font-weight: 900; font-size: 18px; }
+  .wk, .grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 2px; }
+  .wk { font-size: 12px; font-weight: 700; text-align: center; margin-bottom: 4px; color: var(--muted); }
+  .wk .su { color: #B23B3B; } .wk .sa { color: var(--main); }
+  .day { height: 48px; border: 0; border-radius: 10px; padding: 0; background: transparent; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; font-size: 15px; color: var(--ink); cursor: pointer; }
+  .day:disabled { color: #A7B3BF; cursor: default; }
+  .day.su { color: #B23B3B; } .day.sa { color: var(--main); }
+  .day.today { outline: 2px solid var(--main); outline-offset: -2px; font-weight: 700; }
+  .day.sel { background: var(--main); color: #fff; font-weight: 700; outline: none; }
+  .day i { width: 6px; height: 6px; border-radius: 3px; box-sizing: border-box; }
+  .i-full { background: var(--main); } .i-part { border: 1.5px solid var(--sub); } .i-past { background: var(--off); }
+  .day.sel i { background: #fff; border-color: #fff; }
+  @media (prefers-reduced-motion: no-preference) { .card { transition: transform .15s; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand"><b>滑れるリンク</b><span id="updated">読み込み中…</span></div>
+    <div class="daterow">
+      <div>
+        <h1 id="dateTitle">—</h1>
+        <span class="badge-past" id="pastNote" hidden></span>
+      </div>
+      <button class="pick" id="openCal" type="button" aria-label="カレンダーから日付を選ぶ">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+        日付を選ぶ
+      </button>
+    </div>
+    <div class="tabs" role="tablist" aria-label="表示する日">
+      <button role="tab" id="tabToday" type="button" aria-selected="true">今日</button>
+      <button role="tab" id="tabTomorrow" type="button" aria-selected="false">明日</button>
+    </div>
+  </header>
+
+  <div class="summary" id="summary"></div>
+  <div class="filters">
+    <button type="button" id="fAll" aria-pressed="true">すべて</button>
+    <button type="button" id="fMain" aria-pressed="false">メイン営業のみ</button>
+  </div>
+  <main id="list"></main>
+
+  <footer>
+    営業時間は各施設の公式サイトから1日3回（5時・12時・18時）自動で取得しています。「予定」は基本営業時間から出したもの、PDFなどをAIで読み取った情報も含みます。お出かけ前に必ず公式サイトで最新情報を確認してください。
+  </footer>
+</div>
+
+<div class="cal" id="cal" hidden role="dialog" aria-modal="true" aria-labelledby="calTitle">
+  <div class="cal-head">
+    <button type="button" id="closeCal" aria-label="一覧に戻る"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <h2 id="calTitle">日付を選ぶ</h2>
+  </div>
+  <div class="cal-body">
+    <div class="legend">
+      <span><i class="dot i-full" style="width:8px;height:8px"></i>全施設の情報あり</span>
+      <span><i class="dot i-part" style="width:8px;height:8px"></i>一部の施設が未掲載</span>
+      <span><i class="dot i-past" style="width:8px;height:8px"></i>過去の記録</span>
+    </div>
+    <div id="months"></div>
+  </div>
+</div>
+
+<script>
+(() => {
+  const WD = ['日', '月', '火', '水', '木', '金', '土'];
+  const STATUS = { closed: '営業なし', off_season: '期間外', unpublished: '未掲載', unknown: '確認中' };
+  const state = { meta: null, months: {}, date: null, mainOnly: false };
+  const $ = (id) => document.getElementById(id);
+
+  const jstToday = () => new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
+  const addDays = (iso, n) => { const d = new Date(iso + 'T00:00:00Z'); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
+  const parts = (iso) => { const d = new Date(iso + 'T00:00:00Z'); return { y: d.getUTCFullYear(), m: d.getUTCMonth() + 1, d: d.getUTCDate(), w: d.getUTCDay() }; };
+  const hhmm = (ts) => ts ? ts.slice(11, 16) : '';
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+  async function getJSON(path) {
+    const res = await fetch(path, { cache: 'no-store' });
+    if (!res.ok) throw new Error(path + ' ' + res.status);
+    return res.json();
+  }
+  async function loadMonth(key) {
+    if (state.months[key] !== undefined) return state.months[key];
+    try { state.months[key] = (await getJSON(`data/days/${key}.json`)).days || {}; }
+    catch { state.months[key] = null; }
+    return state.months[key];
+  }
+
+  function classify(rec) {
+    if (!rec) return 'none';
+    if (rec.status === 'open') return rec.main_open ? 'main' : 'sub';
+    return 'off';
+  }
+
+  function sessionRow(s, twoRinks) {
+    const tag = twoRinks ? `<span class="tag ${s.rink === 'sub' ? 't-sub' : 't-main'}">${s.rink === 'sub' ? 'サブ' : 'メイン'}</span>` : '';
+    return `<div class="s">${tag}<span class="time">${esc(s.start)}–${esc(s.end)}</span>${s.note ? `<span class="snote">${esc(s.note)}</span>` : ''}</div>`;
+  }
+
+  function card(rink, rec, past) {
+    const kind = classify(rec);
+    const planned = rec && rec.basis === 'planned';
+    const link = `<a href="${esc(rink.schedule_url)}" target="_blank" rel="noopener">公式スケジュールを見る</a>`;
+    const when = rec ? `<span>${past ? '記録 ' : ''}${hhmm(rec.fetched_at)} 取得</span>` : '';
+    const err = rink.last_error && !past ? `<div class="warn">最新の取得に失敗しました。前回までの情報を表示しています</div>` : '';
+    if (kind === 'main' || kind === 'sub') {
+      let badge = kind === 'main' ? '<span class="badge b-main">メイン営業</span>' : '<span class="badge b-sub">サブのみ</span>';
+      if (planned) badge = '<span class="badge b-plan">予定</span>';
+      if (!rink.two_rinks && kind === 'main' && !planned) badge = '<span class="badge b-main">営業</span>';
+      const notes = [];
+      if (rec.note) notes.push(`<div class="small">${esc(rec.note)}</div>`);
+      if (rec.resurfacing && rec.resurfacing.length) notes.push(`<div class="small">整氷 ${rec.resurfacing.map(esc).join('・')}</div>`);
+      if (rec.confidence === 'low') notes.push('<div class="warn">読み取り確度：低　公式サイトで確認してください</div>');
+      return `<article class="card ${planned ? 'planned' : ''}">
+        <div class="top"><div><div class="name">${esc(rink.name)}</div><div class="place">${esc(rink.pref)}・${esc(rink.city)}</div></div>${badge}</div>
+        <div class="sessions">${rec.sessions.map((s) => sessionRow(s, rink.two_rinks)).join('')}</div>
+        ${notes.join('')}${err}
+        <div class="foot">${link}${when}</div></article>`;
+    }
+    const label = rec ? (STATUS[rec.status] || '確認中') : '記録なし';
+    const reason = rec && rec.note ? rec.note : (rec ? '' : 'この日の記録はありません');
+    return `<article class="card dim">
+      <div class="top"><div class="name">${esc(rink.name)}</div><span class="badge b-off">${label}</span></div>
+      ${reason ? `<div class="small">${esc(reason)}</div>` : ''}${err}
+      <div class="foot">${link}${when}</div></article>`;
+  }
+
+  async function render() {
+    const iso = state.date, today = jstToday(), p = parts(iso);
+    $('dateTitle').innerHTML = `${p.m}月${p.d}日<small>（${WD[p.w]}）</small>`;
+    $('tabToday').setAttribute('aria-selected', String(iso === today));
+    $('tabTomorrow').setAttribute('aria-selected', String(iso === addDays(today, 1)));
+    $('tabToday').textContent = `今日 ${parts(today).m}/${parts(today).d}`;
+    const tm = parts(addDays(today, 1)); $('tabTomorrow').textContent = `明日 ${tm.m}/${tm.d}`;
+    const past = iso < today;
+    $('pastNote').hidden = !past;
+    $('pastNote').textContent = past ? 'この日の最後に取得した記録です' : '';
+
+    const days = await loadMonth(iso.slice(0, 7));
+    const recs = (days && days[iso]) || {};
+    const rinks = state.meta.rinks;
+    const groups = { main: [], sub: [], off: [] };
+    for (const r of rinks) {
+      const rec = recs[r.id];
+      const k = classify(rec);
+      (k === 'none' ? groups.off : groups[k]).push([r, rec]);
+    }
+    const byBasis = (a, b) => ((a[1]?.basis === 'planned') - (b[1]?.basis === 'planned'));
+    groups.main.sort(byBasis); groups.sub.sort(byBasis);
+
+    $('summary').innerHTML =
+      `<span><i class="dot" style="background:var(--main)"></i>メイン営業 ${groups.main.length}</span>` +
+      `<span><i class="dot" style="background:var(--sub)"></i>サブのみ ${groups.sub.length}</span>` +
+      `<span><i class="dot" style="background:var(--off)"></i>営業なし・その他 ${groups.off.length}</span>`;
+
+    let html = '';
+    if (!Object.keys(recs).length) html += '<div class="empty">この日の記録はありません</div>';
+    if (groups.main.length) html += `<section class="group"><h2 style="color:var(--main)">メインリンクで営業</h2>${groups.main.map(([r, x]) => card(r, x, past)).join('')}</section>`;
+    if (groups.sub.length && !state.mainOnly) html += `<section class="group"><h2 style="color:var(--sub-ink)">サブリンクのみ営業</h2>${groups.sub.map(([r, x]) => card(r, x, past)).join('')}</section>`;
+    if (groups.off.length && !state.mainOnly && Object.keys(recs).length) html += `<section class="group"><h2 style="color:var(--off-ink)">営業なし・期間外・未掲載</h2>${groups.off.map(([r, x]) => card(r, x, past)).join('')}</section>`;
+    $('list').innerHTML = html;
+  }
+
+  function monthsInRange() {
+    const first = state.meta.months[0] || jstToday().slice(0, 7);
+    const last = state.meta.range_end.slice(0, 7);
+    const out = []; let [y, m] = first.split('-').map(Number);
+    while (`${y}-${String(m).padStart(2, '0')}` <= last) { out.push(`${y}-${String(m).padStart(2, '0')}`); m++; if (m > 12) { m = 1; y++; } }
+    return out;
+  }
+
+  async function renderCalendar() {
+    const today = jstToday(), last = state.meta.range_end;
+    const keys = monthsInRange();
+    await Promise.all(keys.map(loadMonth));
+    const html = keys.map((key) => {
+      const [y, m] = key.split('-').map(Number);
+      const days = state.months[key] || {};
+      const startW = new Date(Date.UTC(y, m - 1, 1)).getUTCDay();
+      const count = new Date(Date.UTC(y, m, 0)).getUTCDate();
+      let cells = '<span></span>'.repeat(startW);
+      for (let d = 1; d <= count; d++) {
+        const iso = `${key}-${String(d).padStart(2, '0')}`;
+        const w = (startW + d - 1) % 7;
+        const recs = days[iso];
+        const has = recs && Object.keys(recs).length;
+        const disabled = !has || iso > last;
+        let dot = '';
+        if (has && iso < today) dot = 'i-past';
+        else if (has) dot = Object.values(recs).some((r) => r.status === 'unpublished') ? 'i-part' : 'i-full';
+        const cls = ['day', w === 0 ? 'su' : w === 6 ? 'sa' : '', iso === today ? 'today' : '', iso === state.date ? 'sel' : ''].join(' ');
+        cells += `<button type="button" class="${cls}" data-date="${iso}" ${disabled ? 'disabled' : ''} aria-label="${m}月${d}日（${WD[w]}）">${d}<i class="${dot}"></i></button>`;
+      }
+      return `<div class="month"><h3>${y}年${m}月</h3><div class="wk"><span class="su">日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span class="sa">土</span></div><div class="grid">${cells}</div></div>`;
+    }).join('');
+    $('months').innerHTML = html;
+    const cur = $('months').querySelector(`[data-date="${state.date}"]`) || $('months').querySelector(`[data-date="${today}"]`);
+    if (cur) cur.scrollIntoView({ block: 'center' });
+  }
+
+  function setDate(iso) { state.date = iso; render(); window.scrollTo(0, 0); }
+
+  $('tabToday').onclick = () => setDate(jstToday());
+  $('tabTomorrow').onclick = () => setDate(addDays(jstToday(), 1));
+  $('fAll').onclick = () => { state.mainOnly = false; $('fAll').setAttribute('aria-pressed', 'true'); $('fMain').setAttribute('aria-pressed', 'false'); render(); };
+  $('fMain').onclick = () => { state.mainOnly = true; $('fMain').setAttribute('aria-pressed', 'true'); $('fAll').setAttribute('aria-pressed', 'false'); render(); };
+  $('openCal').onclick = async () => { $('cal').hidden = false; document.body.style.overflow = 'hidden'; await renderCalendar(); };
+  $('closeCal').onclick = () => { $('cal').hidden = true; document.body.style.overflow = ''; };
+  $('months').onclick = (e) => {
+    const b = e.target.closest('button[data-date]');
+    if (!b || b.disabled) return;
+    $('cal').hidden = true; document.body.style.overflow = ''; setDate(b.dataset.date);
+  };
+
+  (async () => {
+    try {
+      state.meta = await getJSON('data/meta.json');
+    } catch {
+      $('updated').textContent = 'データがまだありません';
+      $('list').innerHTML = '<div class="empty">データを準備中です。しばらくしてから開き直してください。</div>';
+      return;
+    }
+    const g = state.meta.generated_at;
+    $('updated').textContent = `最終更新 ${parseInt(g.slice(5, 7))}/${parseInt(g.slice(8, 10))} ${hhmm(g)}`;
+    state.date = jstToday();
+    render();
+  })();
+})();
+</script>
+</body>
+</html>

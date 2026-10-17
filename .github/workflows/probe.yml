@@ -2,11 +2,6 @@ name: 取得テスト
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - scripts/probe.py
-      - .github/workflows/probe.yml
 
 permissions:
   contents: write
