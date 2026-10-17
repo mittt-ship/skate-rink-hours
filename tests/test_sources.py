@@ -83,3 +83,15 @@ def test_kirifuri_and_rules():
     assert u[dt.date(2026, 10, 21)].status == CLOSED          # 水曜休場
     assert sess(u[dt.date(2026, 10, 19)]) == [("main", "13:00", "19:00")]
     assert sess(u[TODAY]) == [("main", "9:00", "17:00")]
+
+
+def test_higashiyamato_early_morning_is_not_trusted():
+    r = html_pages.parse_higashiyamato(t("higashiyamato.html"), TODAY, END, "u", TODAY, hour=5)
+    assert r[TODAY].status != OPEN
+
+
+def test_kirifuri_closed_words():
+    csv_text = "rink_id,date,start,end,status,note\nkirifuri,2026-10-18,,,休館,\nkirifuri,2026-10-19,,,営業,\n"
+    r = rules.kirifuri(TODAY, END, "u", rules.read_manual_sheet(csv_text))
+    assert r[dt.date(2026, 10, 18)].status == CLOSED
+    assert r[dt.date(2026, 10, 19)].status != OPEN

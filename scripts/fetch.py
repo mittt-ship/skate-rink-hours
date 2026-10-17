@@ -31,7 +31,7 @@ def main():
     sources = {
         "jingu": lambda url: html_pages.fetch_jingu(today, end, url, today),
         "daido": lambda url: html_pages.fetch_daido(today, end, url, today),
-        "higashiyamato": lambda url: html_pages.fetch_higashiyamato(today, end, url, today),
+        "higashiyamato": lambda url: html_pages.fetch_higashiyamato(today, end, url, today, now.hour),
         "maorink": lambda url: calendars.fetch_maorink(today, end, url),
         "tatsumi": lambda url: calendars.fetch_tatsumi(today, end, url),
         "edogawa": lambda url: html_pages.fetch_edogawa(today, end, url, today),

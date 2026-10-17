@@ -85,14 +85,15 @@ def kirifuri(start, end, url, manual: dict):
             continue
         rows = entries.get(d)
         if rows:
-            if any("なし" in r.get("status", "") for r in rows):
-                notes = [r.get("note", "") for r in rows if r.get("note")]
-                out[d] = simple_day(CLOSED, url, " / ".join(notes) or "営業なし（手入力）")
+            sessions = [Session(r["start"], r["end"], "main", r.get("note", ""))
+                        for r in rows if r.get("start") and r.get("end")]
+            words = " ".join(r.get("status", "") + " " + r.get("note", "") for r in rows)
+            if not sessions and any(k in words for k in ("なし", "休", "閉", "貸切", "×", "✖")):
+                out[d] = simple_day(CLOSED, url, words.replace("営業なし", "").strip() or "営業なし（手入力）")
+            elif sessions:
+                out[d] = open_day(sessions, url, note="手入力の営業カレンダー")
             else:
-                sessions = [Session(r["start"], r["end"], "main", r.get("note", ""))
-                            for r in rows if r.get("start") and r.get("end")]
-                out[d] = open_day(sessions, url, note="手入力の営業カレンダー") if sessions else \
-                    simple_day(UNKNOWN, url, "手入力の時間が空欄")
+                out[d] = simple_day(UNKNOWN, url, f"手入力の時間が空欄（{words.strip() or '記入なし'}）")
         else:
             out[d] = open_day([Session("10:00", "15:30")], url, basis=PLANNED, confidence="medium",
                               note="基本営業時間からの予定（公式の営業カレンダーで確認してください）")

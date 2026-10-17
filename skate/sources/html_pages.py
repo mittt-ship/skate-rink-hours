@@ -127,11 +127,15 @@ def parse_jingu(html: str, start, end, url, today):
 
 # ---------------------------------------------------------------- 東大和スケートセンター
 
-def parse_higashiyamato(html: str, start, end, url, today):
+def parse_higashiyamato(html: str, start, end, url, today, hour: int = 12):
     soup = BeautifulSoup(html, "html.parser")
     out = {d: simple_day(UNKNOWN, url, "月間カレンダーが画像のため取得準備中") for d in date_range(start, end)}
     texts = [normalize(t.get_text(" ")) for t in soup.select(".comp-icearena-announce__text")]
     joined = " ".join(texts)
+    # 「本日の営業時間」に日付がないため、前日分が残っている可能性がある早朝の取得では使わない
+    if hour < 9 and today in out:
+        out[today] = simple_day(UNKNOWN, url, "本日の営業時間は9時以降に確認します")
+        return out
     if "本日の営業時間" in joined and today in out:
         ranges = find_time_ranges(joined)
         if ranges and "一般滑走" in joined:
@@ -155,6 +159,6 @@ def fetch_jingu(start, end, url, today):
     return parse_jingu(fetch_text("https://meijijingugaien-iceskating.com/"), start, end, url, today)
 
 
-def fetch_higashiyamato(start, end, url, today):
+def fetch_higashiyamato(start, end, url, today, hour):
     return parse_higashiyamato(fetch_text("https://www.seibu-leisure.co.jp/web/iceskate/index.html"),
-                               start, end, url, today)
+                               start, end, url, today, hour)
