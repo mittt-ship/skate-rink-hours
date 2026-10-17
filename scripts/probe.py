@@ -54,6 +54,9 @@ PAGES = {
     "ginga_general": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
     "kose_sp_top": "https://www.kose-sp.pref.yamanashi.jp/",
     "mfice_top": "https://mf-ice.com/",
+    "kosesp_ice": "https://www.kose-sp.pref.yamanashi.jp/info/use/216606/",
+    "utsunomiya_event": "https://www.miya-sp.jp/topics/event/",
+    "utsunomiya_skate": "https://www.miya-sp.jp/skate/",
 }
 
 RUN_AI = os.environ.get("PROBE_AI") == "1"
