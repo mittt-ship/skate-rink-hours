@@ -4,8 +4,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -22,8 +23,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -33,8 +35,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -51,8 +54,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -62,8 +66,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -73,8 +78,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -91,8 +97,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -109,8 +116,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -120,8 +128,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -144,19 +153,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -179,8 +190,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -190,8 +202,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -201,8 +214,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -219,8 +233,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "12:15",
@@ -242,8 +257,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -260,8 +276,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -271,8 +288,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -289,8 +307,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -300,8 +319,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -311,8 +331,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -329,8 +350,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -347,8 +369,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -358,8 +381,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -382,19 +406,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -417,8 +443,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -428,8 +455,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -439,8 +467,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -457,8 +486,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "13:00"
@@ -479,8 +509,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -497,8 +528,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -508,8 +540,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -526,8 +559,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -537,8 +571,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -548,8 +583,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -566,8 +602,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -584,8 +621,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -595,8 +633,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -619,19 +658,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -654,8 +695,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -665,8 +707,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -676,8 +719,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -694,8 +738,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "整氷の時刻は13:00と読み取ったが、12:15の可能性もある",
     "resurfacing": [
      "13:00"
@@ -716,8 +761,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -734,8 +780,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -745,8 +792,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -763,8 +811,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -774,8 +823,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -785,8 +835,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -803,8 +854,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -821,8 +873,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -832,8 +885,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -856,19 +910,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -891,8 +947,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -902,8 +959,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -913,8 +971,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "休場日",
     "resurfacing": [],
     "sessions": [],
@@ -924,8 +983,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "13:00"
@@ -946,8 +1006,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -964,8 +1025,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -975,8 +1037,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "教室貸切",
     "resurfacing": [],
     "sessions": [],
@@ -986,8 +1049,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -997,8 +1061,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1008,8 +1073,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -1026,8 +1092,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -1044,8 +1111,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1055,8 +1123,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -1079,19 +1148,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -1114,8 +1185,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1125,8 +1197,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1136,8 +1209,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -1154,8 +1228,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "15:45"
@@ -1176,8 +1251,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -1194,8 +1270,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1205,8 +1282,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -1223,8 +1301,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1234,8 +1313,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1245,8 +1325,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -1263,8 +1344,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -1281,8 +1363,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1292,8 +1375,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -1316,19 +1400,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -1351,8 +1437,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1362,8 +1449,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1373,8 +1461,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -1391,8 +1480,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "15:45"
@@ -1413,8 +1503,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -1431,8 +1522,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1442,8 +1534,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -1460,8 +1553,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1471,8 +1565,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1482,8 +1577,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -1500,8 +1596,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -1518,8 +1615,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1529,8 +1627,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -1553,19 +1652,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "一般営業の掲載なし",
     "resurfacing": [],
     "sessions": [],
@@ -1575,8 +1676,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1586,8 +1688,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1597,8 +1700,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -1615,8 +1719,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "12:15",
@@ -1638,8 +1743,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -1656,8 +1762,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1667,8 +1774,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -1685,8 +1793,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1696,8 +1805,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1707,8 +1817,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -1725,8 +1836,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -1743,8 +1855,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1754,8 +1867,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -1778,19 +1892,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "一般営業の掲載なし",
     "resurfacing": [],
     "sessions": [],
@@ -1800,8 +1916,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1811,8 +1928,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1822,8 +1940,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -1840,8 +1959,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "12:15",
@@ -1863,8 +1983,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -1881,8 +2002,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1892,8 +2014,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -1910,8 +2033,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1921,8 +2045,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1932,8 +2057,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -1950,8 +2076,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -1968,8 +2095,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -1979,8 +2107,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -2003,19 +2132,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -2038,8 +2169,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2049,8 +2181,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2060,8 +2193,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -2078,8 +2212,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "13:00"
@@ -2100,8 +2235,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -2118,8 +2254,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2129,8 +2266,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "教室貸切",
     "resurfacing": [],
     "sessions": [],
@@ -2140,8 +2278,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2151,8 +2290,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2162,8 +2302,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -2180,8 +2321,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -2198,8 +2340,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2209,8 +2352,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -2233,19 +2377,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "専用利用の時間あり",
     "resurfacing": [],
     "sessions": [
@@ -2268,8 +2414,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2279,8 +2426,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2290,8 +2438,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -2308,8 +2457,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "13:00"
@@ -2330,8 +2480,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -2348,8 +2499,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2359,8 +2511,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -2377,8 +2530,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2388,8 +2542,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2399,8 +2554,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -2417,8 +2573,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -2435,8 +2592,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2446,8 +2604,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -2470,19 +2629,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -2505,8 +2666,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2516,8 +2678,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2527,8 +2690,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "休場日",
     "resurfacing": [],
     "sessions": [],
@@ -2538,8 +2702,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "13:00"
@@ -2560,8 +2725,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -2578,8 +2744,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2589,8 +2756,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "教室貸切",
     "resurfacing": [],
     "sessions": [],
@@ -2600,8 +2768,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2611,8 +2780,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2622,8 +2792,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -2640,8 +2811,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -2658,8 +2830,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2669,8 +2842,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -2693,19 +2867,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -2728,8 +2904,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2739,8 +2916,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2750,8 +2928,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -2768,8 +2947,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "15:45"
@@ -2790,8 +2970,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -2808,8 +2989,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2819,8 +3001,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -2837,8 +3020,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2848,8 +3032,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2859,8 +3044,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -2877,8 +3063,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -2895,8 +3082,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2906,8 +3094,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -2930,19 +3119,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -2965,8 +3156,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2976,8 +3168,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -2987,8 +3180,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -3005,8 +3199,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "15:45"
@@ -3027,8 +3222,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -3045,8 +3241,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3056,8 +3253,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "時短営業",
     "resurfacing": [],
     "sessions": [
@@ -3074,8 +3272,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3085,8 +3284,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3096,8 +3296,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -3114,8 +3315,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -3132,8 +3334,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3143,8 +3346,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -3167,19 +3371,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -3202,8 +3408,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3213,8 +3420,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3224,8 +3432,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -3242,8 +3451,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "12:15",
@@ -3265,8 +3475,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -3283,8 +3494,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3294,8 +3506,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "時短営業",
     "resurfacing": [],
     "sessions": [
@@ -3312,8 +3525,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3323,8 +3537,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3334,8 +3549,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -3352,8 +3568,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -3370,8 +3587,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3381,8 +3599,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -3405,19 +3624,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -3440,8 +3661,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3451,8 +3673,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3462,8 +3685,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -3480,8 +3704,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "12:15",
@@ -3503,8 +3728,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -3521,8 +3747,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3532,8 +3759,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -3550,8 +3778,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3561,8 +3790,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3572,8 +3802,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -3590,8 +3821,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -3608,8 +3840,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3619,8 +3852,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -3643,19 +3877,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -3678,8 +3914,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3689,8 +3926,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "休館日",
     "resurfacing": [],
     "sessions": [],
@@ -3700,8 +3938,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -3718,8 +3957,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "13:00"
@@ -3740,8 +3980,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -3758,8 +3999,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3769,8 +4011,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "教室貸切",
     "resurfacing": [],
     "sessions": [],
@@ -3780,8 +4023,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3791,8 +4035,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3802,8 +4047,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -3820,8 +4066,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -3838,8 +4085,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3849,8 +4097,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -3873,19 +4122,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "専用利用の時間あり",
     "resurfacing": [],
     "sessions": [
@@ -3908,8 +4159,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3919,8 +4171,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3930,8 +4183,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -3948,8 +4202,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "13:00"
@@ -3970,8 +4225,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -3988,8 +4244,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -3999,8 +4256,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -4017,8 +4275,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4028,8 +4287,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4039,8 +4299,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -4057,8 +4318,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -4075,8 +4337,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4086,8 +4349,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -4110,19 +4374,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -4145,8 +4411,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4156,8 +4423,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4167,8 +4435,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "休場日",
     "resurfacing": [],
     "sessions": [],
@@ -4178,8 +4447,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "13:00"
@@ -4200,8 +4470,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -4218,8 +4489,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4229,8 +4501,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "教室貸切",
     "resurfacing": [],
     "sessions": [],
@@ -4240,8 +4513,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4251,8 +4525,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4262,8 +4537,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -4280,8 +4556,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -4298,8 +4575,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4309,8 +4587,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -4333,19 +4612,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -4368,8 +4649,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4379,8 +4661,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4390,8 +4673,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -4408,8 +4692,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "15:45"
@@ -4430,8 +4715,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -4448,8 +4734,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4459,8 +4746,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -4477,8 +4765,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4488,8 +4777,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4499,8 +4789,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -4517,8 +4808,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -4535,8 +4827,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4546,8 +4839,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -4570,19 +4864,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -4605,8 +4901,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4616,8 +4913,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4627,8 +4925,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -4645,8 +4944,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "15:45"
@@ -4667,8 +4967,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -4685,8 +4986,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4696,8 +4998,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -4714,8 +5017,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4725,8 +5029,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4736,8 +5041,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -4754,8 +5060,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -4772,8 +5079,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4783,8 +5091,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -4807,19 +5116,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -4842,8 +5153,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4853,8 +5165,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4864,8 +5177,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -4882,8 +5196,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "12:15",
@@ -4905,8 +5220,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -4923,8 +5239,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4934,8 +5251,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -4952,8 +5270,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4963,8 +5282,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -4974,8 +5294,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -4992,8 +5313,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -5010,8 +5332,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5021,8 +5344,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -5045,19 +5369,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -5080,8 +5406,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5091,8 +5418,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5102,8 +5430,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -5120,8 +5449,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "ai",
     "note": "休業（大人発表会イベント）",
     "resurfacing": [],
     "sessions": [],
@@ -5133,8 +5463,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -5151,8 +5482,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5162,8 +5494,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -5180,8 +5513,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5191,8 +5525,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5202,8 +5537,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -5220,8 +5556,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -5238,8 +5575,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5249,8 +5587,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -5273,19 +5612,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -5308,8 +5649,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5319,8 +5661,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5330,8 +5673,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -5348,8 +5692,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "13:00"
@@ -5370,8 +5715,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -5388,8 +5734,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5399,8 +5746,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "教室貸切",
     "resurfacing": [],
     "sessions": [],
@@ -5410,8 +5758,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5421,8 +5770,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5432,8 +5782,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -5450,8 +5801,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -5468,8 +5820,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5479,8 +5832,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -5503,19 +5857,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "専用利用の時間あり",
     "resurfacing": [],
     "sessions": [
@@ -5538,8 +5894,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5549,8 +5906,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5560,8 +5918,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -5578,8 +5937,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "ai",
     "note": "休業（施設点検日）",
     "resurfacing": [],
     "sessions": [],
@@ -5591,8 +5951,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -5609,8 +5970,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5620,8 +5982,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -5638,8 +6001,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5649,8 +6013,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5660,8 +6025,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -5678,8 +6044,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -5696,8 +6063,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5707,8 +6075,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -5731,19 +6100,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -5766,8 +6137,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5777,8 +6149,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5788,8 +6161,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "休場日",
     "resurfacing": [],
     "sessions": [],
@@ -5799,8 +6173,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "13:00"
@@ -5821,8 +6196,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -5839,8 +6215,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5850,8 +6227,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "教室貸切",
     "resurfacing": [],
     "sessions": [],
@@ -5861,8 +6239,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5872,8 +6251,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5883,8 +6263,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -5901,8 +6282,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -5919,8 +6301,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -5930,8 +6313,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -5954,19 +6338,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -5989,8 +6375,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6000,8 +6387,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6011,8 +6399,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -6029,8 +6418,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "15:45"
@@ -6051,8 +6441,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -6069,8 +6460,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6080,8 +6472,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -6098,8 +6491,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6109,8 +6503,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6120,8 +6515,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -6138,8 +6534,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -6156,8 +6553,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6167,8 +6565,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -6191,19 +6590,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -6226,8 +6627,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6237,8 +6639,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6248,8 +6651,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -6266,8 +6670,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "15:45"
@@ -6288,8 +6693,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -6306,8 +6712,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6317,8 +6724,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -6335,8 +6743,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6346,8 +6755,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6357,8 +6767,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -6375,8 +6786,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -6393,8 +6805,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6404,8 +6817,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -6428,19 +6842,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -6463,8 +6879,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6474,8 +6891,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6485,8 +6903,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -6503,8 +6922,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "12:15",
@@ -6526,8 +6946,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -6544,8 +6965,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6555,8 +6977,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -6573,8 +6996,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6584,8 +7008,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6595,8 +7020,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -6613,8 +7039,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -6631,8 +7058,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6642,8 +7070,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -6666,19 +7095,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -6701,8 +7132,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6712,8 +7144,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6723,8 +7156,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -6741,8 +7175,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "12:15",
@@ -6764,8 +7199,9 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -6782,8 +7218,9 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6793,8 +7230,9 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -6811,8 +7249,9 @@
    "ginga": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6822,8 +7261,9 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6833,8 +7273,9 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定",
     "resurfacing": [],
     "sessions": [
@@ -6851,8 +7292,9 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
     "resurfacing": [],
     "sessions": [
@@ -6869,8 +7311,9 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6880,8 +7323,9 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -6904,19 +7348,21 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:10:00+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
-    "note": "PDFの読み取りは準備中です。公式サイトで確認してください",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://mf-ice.com/#user-guide",
-    "status": "unknown"
+    "status": "unpublished"
    },
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "",
     "resurfacing": [],
     "sessions": [
@@ -6939,8 +7385,9 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6950,8 +7397,9 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": false,
+    "method": "",
     "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
@@ -6961,8 +7409,9 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
     "resurfacing": [],
     "sessions": [
@@ -6979,8 +7428,9 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-18T00:19:40+09:00",
+    "fetched_at": "2026-10-18T00:23:25+09:00",
     "main_open": true,
+    "method": "ai",
     "note": "",
     "resurfacing": [
      "13:00"
