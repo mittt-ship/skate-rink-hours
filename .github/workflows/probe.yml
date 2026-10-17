@@ -1,0 +1,34 @@
+name: 取得テスト
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/probe.py
+      - .github/workflows/probe.yml
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 取得テストを実行
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MANUAL_SHEET_CSV_URL: https://docs.google.com/spreadsheets/d/e/2PACX-1vTsUr65zkeUa-BLk20VUzHMZ6FOxVlR-3gTuXBMUBBDUTxHt8aO8Gp07LxsaiDLiRbHC6ZjJcKpT273/pub?gid=0&single=true&output=csv
+        run: python scripts/probe.py
+      - name: 結果を保存
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: probe-results
+          path: probe_results/
+          retention-days: 7
