@@ -1,0 +1,39 @@
+{
+ "rink_id": "aqua-news",
+ "created_on": "2026-10-18",
+ "used_on": "2026-10-18",
+ "model": "claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 1116,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 461,
+  "output_tokens_details": {
+   "thinking_tokens": 318
+  },
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "result": {
+  "exceptions": [
+   {
+    "date": "2026-10-18",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "09:00",
+      "end": "18:00",
+      "note": "滑走料無料(貸靴別途500円)。混雑状況により入場規制の場合あり"
+     }
+    ],
+    "note": "千葉市民の日イベントによるアイススケート特別営業(営業時間は記載なしのため通常時間)"
+   }
+  ]
+ }
+}
