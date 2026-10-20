@@ -1,0 +1,32 @@
+{
+ "rink_id": "utsunomiya-news",
+ "created_on": "2026-10-21",
+ "used_on": "2026-10-21",
+ "model": "claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 4951,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 327,
+  "output_tokens_details": {
+   "thinking_tokens": 263
+  },
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "result": {
+  "exceptions": [
+   {
+    "date": "2026-10-25",
+    "status": "closed",
+    "sessions": [],
+    "note": "大会貸切のため終日貸切(一般開放なし)"
+   }
+  ]
+ }
+}
