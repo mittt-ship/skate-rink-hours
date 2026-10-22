@@ -1131,7 +1131,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -1150,7 +1150,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
     "note": "一般営業お休み：貸切営業",
@@ -1162,19 +1162,19 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
-    "note": "教室貸切",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://www.edogawa-sportsland.com/",
-    "status": "closed"
+    "status": "unpublished"
    },
    "ginga": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-19T07:23:02+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -1193,7 +1193,7 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "ai",
     "note": "一般滑走お休み",
@@ -1205,7 +1205,7 @@
    "jingu": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -1222,19 +1222,19 @@
     "status": "open"
    },
    "kirifuri": {
-    "basis": "planned",
-    "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "basis": "confirmed",
+    "confidence": "high",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
-    "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
+    "note": "手入力の営業カレンダー",
     "resurfacing": [],
     "sessions": [
      {
       "end": "15:30",
       "note": "",
       "rink": "main",
-      "start": "10:00"
+      "start": "12:00"
      }
     ],
     "source_url": "http://www.kousha.or.jp/news_list.php",
@@ -1243,7 +1243,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "ai",
     "note": "一般利用不可",
@@ -1255,7 +1255,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -1299,7 +1299,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
     "note": "メインリンクお休み",
@@ -1318,26 +1318,19 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
-    "main_open": true,
-    "method": "ai",
-    "note": "整氷なし",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
+    "main_open": false,
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
-    "sessions": [
-     {
-      "end": "17:30",
-      "note": "",
-      "rink": "main",
-      "start": "14:30"
-     }
-    ],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
-    "status": "open"
+    "sessions": [],
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
+    "status": "unpublished"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
     "note": "一般滑走なし",
@@ -1349,7 +1342,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -1368,7 +1361,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -1391,7 +1384,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -1410,7 +1403,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
     "note": "一般営業お休み：貸切営業",
@@ -1422,26 +1415,19 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
-    "main_open": true,
+    "fetched_at": "2026-10-22T17:31:05+09:00",
+    "main_open": false,
     "method": "",
-    "note": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
-    "sessions": [
-     {
-      "end": "18:00",
-      "note": "",
-      "rink": "main",
-      "start": "9:00"
-     }
-    ],
+    "sessions": [],
     "source_url": "https://www.edogawa-sportsland.com/",
-    "status": "open"
+    "status": "unpublished"
    },
    "ginga": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-19T07:23:02+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "10:00-11:00はサブリンクを近隣学校が使用(メインリンクは通常営業)。営業時間は見出しによる",
@@ -1460,7 +1446,7 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "ai",
     "note": "一般滑走お休み",
@@ -1472,7 +1458,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -1489,16 +1475,16 @@
     "status": "open"
    },
    "kirifuri": {
-    "basis": "planned",
-    "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "basis": "confirmed",
+    "confidence": "high",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
-    "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
+    "note": "手入力の営業カレンダー",
     "resurfacing": [],
     "sessions": [
      {
-      "end": "15:30",
+      "end": "13:00",
       "note": "",
       "rink": "main",
       "start": "10:00"
@@ -1510,7 +1496,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "ai",
     "note": "一般利用不可",
@@ -1522,7 +1508,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -1566,7 +1552,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -1591,19 +1577,19 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
-    "method": "ai",
-    "note": "貸切・一般滑走休み",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
-    "status": "closed"
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
+    "status": "unpublished"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
     "note": "",
@@ -1622,7 +1608,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -1641,7 +1627,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -1664,7 +1650,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -1683,7 +1669,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
     "note": "一般営業お休み：大会（エイワ杯2026年度関東大学アイスホッケーリーグ戦）",
@@ -1695,19 +1681,19 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
-    "note": "アイスホッケー小学生大会のため お休み※無料観覧",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://www.edogawa-sportsland.com/",
-    "status": "closed"
+    "status": "unpublished"
    },
    "ginga": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-19T07:23:02+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "スケート感謝デー",
@@ -1726,7 +1712,7 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -1745,7 +1731,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -1762,12 +1748,12 @@
     "status": "open"
    },
    "kirifuri": {
-    "basis": "planned",
-    "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "basis": "confirmed",
+    "confidence": "high",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
-    "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
+    "note": "手入力の営業カレンダー",
     "resurfacing": [],
     "sessions": [
      {
@@ -1783,7 +1769,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "高校生以下滑走無料は滑走料のみ。貸し靴等は別料金",
@@ -1802,7 +1788,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -1852,7 +1838,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -1877,19 +1863,19 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
-    "method": "ai",
-    "note": "貸切・一般滑走休み",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
-    "status": "closed"
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
+    "status": "unpublished"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
     "note": "",
@@ -1908,7 +1894,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -1927,7 +1913,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -1951,7 +1937,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -1970,7 +1956,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
     "note": "一般営業お休み：大会（エイワ杯2026年度関東大学アイスホッケーリーグ戦）",
@@ -1982,19 +1968,19 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
-    "note": "アイスホッケー小学生大会のため お休み※無料観覧",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://www.edogawa-sportsland.com/",
-    "status": "closed"
+    "status": "unpublished"
    },
    "ginga": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-19T07:23:02+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "7:00-9:00は早朝スケート教室(一般営業外)",
@@ -2013,7 +1999,7 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -2032,7 +2018,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -2049,12 +2035,12 @@
     "status": "open"
    },
    "kirifuri": {
-    "basis": "planned",
-    "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "basis": "confirmed",
+    "confidence": "high",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
-    "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
+    "note": "手入力の営業カレンダー",
     "resurfacing": [],
     "sessions": [
      {
@@ -2070,7 +2056,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -2089,7 +2075,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -2139,7 +2125,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -2164,19 +2150,19 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
-    "method": "ai",
-    "note": "貸切・一般滑走休み",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
-    "status": "closed"
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
+    "status": "unpublished"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
     "note": "一般滑走なし",
@@ -2188,7 +2174,7 @@
    "utsunomiya": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "ai",
     "note": "お知らせ欄より：大会貸切のため終日貸切（一般開放なし）",
@@ -2200,7 +2186,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -2224,7 +2210,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -2243,7 +2229,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -2262,26 +2248,19 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
-    "main_open": true,
+    "fetched_at": "2026-10-22T17:31:05+09:00",
+    "main_open": false,
     "method": "",
-    "note": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
-    "sessions": [
-     {
-      "end": "18:00",
-      "note": "",
-      "rink": "main",
-      "start": "9:00"
-     }
-    ],
+    "sessions": [],
     "source_url": "https://www.edogawa-sportsland.com/",
-    "status": "open"
+    "status": "unpublished"
    },
    "ginga": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-19T07:23:02+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "営業時間は表の見出しによる。この日の行に個別の時刻表記なし",
@@ -2300,7 +2279,7 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -2319,7 +2298,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -2336,12 +2315,12 @@
     "status": "open"
    },
    "kirifuri": {
-    "basis": "planned",
-    "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "basis": "confirmed",
+    "confidence": "high",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
-    "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
+    "note": "手入力の営業カレンダー",
     "resurfacing": [],
     "sessions": [
      {
@@ -2357,7 +2336,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -2376,7 +2355,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
     "note": "休館日 / 休館日",
@@ -2407,7 +2386,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "専用利用の時間あり",
@@ -2432,26 +2411,19 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
-    "main_open": true,
-    "method": "ai",
-    "note": "整氷なし",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
+    "main_open": false,
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
-    "sessions": [
-     {
-      "end": "17:30",
-      "note": "",
-      "rink": "main",
-      "start": "14:30"
-     }
-    ],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
-    "status": "open"
+    "sessions": [],
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
+    "status": "unpublished"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
     "note": "",
@@ -2470,7 +2442,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -2489,7 +2461,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "ai",
     "note": "休業（施設点検日）",
@@ -2503,7 +2475,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -2522,7 +2494,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -2541,19 +2513,19 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
-    "note": "教室貸切",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://www.edogawa-sportsland.com/",
-    "status": "closed"
+    "status": "unpublished"
    },
    "ginga": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-19T07:23:02+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "18:00-19:30はジュニアスケート教室(アイスホッケー)のため一般営業外",
@@ -2572,7 +2544,7 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -2591,7 +2563,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -2608,19 +2580,19 @@
     "status": "open"
    },
    "kirifuri": {
-    "basis": "planned",
-    "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "basis": "confirmed",
+    "confidence": "high",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
-    "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
+    "note": "手入力の営業カレンダー",
     "resurfacing": [],
     "sessions": [
      {
       "end": "15:30",
       "note": "",
       "rink": "main",
-      "start": "10:00"
+      "start": "12:00"
      }
     ],
     "source_url": "http://www.kousha.or.jp/news_list.php",
@@ -2629,7 +2601,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -2648,7 +2620,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -2692,7 +2664,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "専用利用の時間あり",
@@ -2717,26 +2689,19 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
-    "main_open": true,
-    "method": "ai",
-    "note": "整氷なし",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
+    "main_open": false,
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
-    "sessions": [
-     {
-      "end": "17:30",
-      "note": "",
-      "rink": "main",
-      "start": "14:30"
-     }
-    ],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
-    "status": "open"
+    "sessions": [],
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
+    "status": "unpublished"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
     "note": "",
@@ -2755,7 +2720,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -2774,7 +2739,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -2797,7 +2762,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -2816,7 +2781,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -2835,26 +2800,19 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
-    "main_open": true,
+    "fetched_at": "2026-10-22T17:31:05+09:00",
+    "main_open": false,
     "method": "",
-    "note": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
-    "sessions": [
-     {
-      "end": "18:00",
-      "note": "",
-      "rink": "main",
-      "start": "9:00"
-     }
-    ],
+    "sessions": [],
     "source_url": "https://www.edogawa-sportsland.com/",
-    "status": "open"
+    "status": "unpublished"
    },
    "ginga": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-19T07:23:02+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "営業時間は表の見出しによる",
@@ -2873,7 +2831,7 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -2892,7 +2850,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -2909,19 +2867,19 @@
     "status": "open"
    },
    "kirifuri": {
-    "basis": "planned",
-    "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "basis": "confirmed",
+    "confidence": "high",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
-    "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
+    "note": "手入力の営業カレンダー",
     "resurfacing": [],
     "sessions": [
      {
       "end": "15:30",
       "note": "",
       "rink": "main",
-      "start": "10:00"
+      "start": "12:00"
      }
     ],
     "source_url": "http://www.kousha.or.jp/news_list.php",
@@ -2930,7 +2888,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -2949,7 +2907,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -2993,7 +2951,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -3018,26 +2976,19 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
-    "main_open": true,
-    "method": "ai",
-    "note": "整氷なし",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
+    "main_open": false,
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
-    "sessions": [
-     {
-      "end": "17:30",
-      "note": "",
-      "rink": "main",
-      "start": "14:30"
-     }
-    ],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
-    "status": "open"
+    "sessions": [],
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
+    "status": "unpublished"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
     "note": "一般滑走なし",
@@ -3049,7 +3000,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
     "note": "休場日",
@@ -3061,7 +3012,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -3084,7 +3035,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -3103,7 +3054,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -3122,19 +3073,19 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
-    "note": "教室貸切",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
     "source_url": "https://www.edogawa-sportsland.com/",
-    "status": "closed"
+    "status": "unpublished"
    },
    "ginga": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-19T07:23:02+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "18:00-19:30はジュニアスケート教室(フィギュア・スピード)のため一般営業外",
@@ -3153,7 +3104,7 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -3172,7 +3123,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -3189,19 +3140,19 @@
     "status": "open"
    },
    "kirifuri": {
-    "basis": "planned",
-    "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "basis": "confirmed",
+    "confidence": "high",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
-    "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
+    "note": "手入力の営業カレンダー",
     "resurfacing": [],
     "sessions": [
      {
       "end": "15:30",
       "note": "",
       "rink": "main",
-      "start": "10:00"
+      "start": "12:00"
      }
     ],
     "source_url": "http://www.kousha.or.jp/news_list.php",
@@ -3210,7 +3161,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "ai",
     "note": "一般利用不可",
@@ -3222,7 +3173,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -3266,7 +3217,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
     "note": "メインリンクお休み",
@@ -3285,26 +3236,19 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
-    "main_open": true,
-    "method": "ai",
-    "note": "整氷なし",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
+    "main_open": false,
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
-    "sessions": [
-     {
-      "end": "17:30",
-      "note": "",
-      "rink": "main",
-      "start": "14:30"
-     }
-    ],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
-    "status": "open"
+    "sessions": [],
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
+    "status": "unpublished"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
     "note": "一般滑走なし",
@@ -3316,7 +3260,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -3335,7 +3279,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -3358,7 +3302,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -3377,7 +3321,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -3396,26 +3340,19 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
-    "main_open": true,
+    "fetched_at": "2026-10-22T17:31:05+09:00",
+    "main_open": false,
     "method": "",
-    "note": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
-    "sessions": [
-     {
-      "end": "18:00",
-      "note": "",
-      "rink": "main",
-      "start": "9:00"
-     }
-    ],
+    "sessions": [],
     "source_url": "https://www.edogawa-sportsland.com/",
-    "status": "open"
+    "status": "unpublished"
    },
    "ginga": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-19T07:23:02+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "営業時間は表の見出しによる。この日の行に個別の時刻表記なし",
@@ -3434,7 +3371,7 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -3453,7 +3390,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -3470,12 +3407,12 @@
     "status": "open"
    },
    "kirifuri": {
-    "basis": "planned",
-    "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "basis": "confirmed",
+    "confidence": "high",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
-    "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
+    "note": "手入力の営業カレンダー",
     "resurfacing": [],
     "sessions": [
      {
@@ -3491,7 +3428,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -3510,7 +3447,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -3554,7 +3491,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -3579,26 +3516,19 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
-    "main_open": true,
-    "method": "ai",
-    "note": "整氷なし",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
+    "main_open": false,
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
-    "sessions": [
-     {
-      "end": "17:30",
-      "note": "",
-      "rink": "main",
-      "start": "14:30"
-     }
-    ],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
-    "status": "open"
+    "sessions": [],
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
+    "status": "unpublished"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -3623,7 +3553,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -3642,7 +3572,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -3665,7 +3595,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -3684,7 +3614,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
     "note": "一般営業お休み：大会（エイワ杯2026年度関東大学アイスホッケーリーグ戦）",
@@ -3696,26 +3626,19 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
-    "main_open": true,
+    "fetched_at": "2026-10-22T17:31:05+09:00",
+    "main_open": false,
     "method": "",
-    "note": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
-    "sessions": [
-     {
-      "end": "18:00",
-      "note": "",
-      "rink": "main",
-      "start": "10:00"
-     }
-    ],
+    "sessions": [],
     "source_url": "https://www.edogawa-sportsland.com/",
-    "status": "open"
+    "status": "unpublished"
    },
    "ginga": {
     "basis": "confirmed",
     "confidence": "medium",
-    "fetched_at": "2026-10-19T07:23:02+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "営業時間は表の見出しによる。この日の行に個別の時刻表記なし",
@@ -3734,7 +3657,7 @@
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -3753,7 +3676,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -3770,12 +3693,12 @@
     "status": "open"
    },
    "kirifuri": {
-    "basis": "planned",
-    "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "basis": "confirmed",
+    "confidence": "high",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
-    "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
+    "note": "手入力の営業カレンダー",
     "resurfacing": [],
     "sessions": [
      {
@@ -3791,7 +3714,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "ai",
     "note": "一般利用不可",
@@ -3803,7 +3726,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -3853,7 +3776,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -3878,19 +3801,19 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
-    "method": "ai",
-    "note": "貸切・一般滑走休み",
+    "method": "",
+    "note": "まだ公開されていません",
     "resurfacing": [],
     "sessions": [],
-    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/pdf/g_schedule_2610.pdf",
-    "status": "closed"
+    "source_url": "https://www.princehotels.co.jp/skate/shinyokohama/general.html",
+    "status": "unpublished"
    },
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": false,
     "method": "",
     "note": "一般滑走なし",
@@ -3902,7 +3825,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -3921,7 +3844,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-10-22T08:11:35+09:00",
+    "fetched_at": "2026-10-22T17:31:05+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
