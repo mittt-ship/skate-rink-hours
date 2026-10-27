@@ -1,0 +1,400 @@
+{
+ "rink_id": "kosesp",
+ "created_on": "2026-10-28",
+ "used_on": "2026-10-28",
+ "model": "claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 2828,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 2623,
+  "output_tokens_details": {
+   "thinking_tokens": 361
+  },
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "result": {
+  "year": 2026,
+  "month": 11,
+  "days": [
+   {
+    "date": "2026-11-01",
+    "status": "closed",
+    "sessions": [],
+    "resurfacing": [],
+    "note": "一般利用不可"
+   },
+   {
+    "date": "2026-11-02",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "12:15",
+      "end": "17:30",
+      "note": ""
+     }
+    ],
+    "resurfacing": [],
+    "note": ""
+   },
+   {
+    "date": "2026-11-03",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "09:30",
+      "end": "17:30",
+      "note": ""
+     }
+    ],
+    "resurfacing": [],
+    "note": ""
+   },
+   {
+    "date": "2026-11-04",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "09:00",
+      "end": "21:00",
+      "note": ""
+     }
+    ],
+    "resurfacing": [],
+    "note": ""
+   },
+   {
+    "date": "2026-11-05",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "13:00",
+      "end": "17:15",
+      "note": ""
+     }
+    ],
+    "resurfacing": [],
+    "note": ""
+   },
+   {
+    "date": "2026-11-06",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "12:15",
+      "end": "16:30",
+      "note": ""
+     }
+    ],
+    "resurfacing": [],
+    "note": ""
+   },
+   {
+    "date": "2026-11-07",
+    "status": "closed",
+    "sessions": [],
+    "resurfacing": [],
+    "note": "一般利用不可"
+   },
+   {
+    "date": "2026-11-08",
+    "status": "closed",
+    "sessions": [],
+    "resurfacing": [],
+    "note": "一般利用不可"
+   },
+   {
+    "date": "2026-11-09",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "09:00",
+      "end": "17:30",
+      "note": ""
+     }
+    ],
+    "resurfacing": [],
+    "note": ""
+   },
+   {
+    "date": "2026-11-10",
+    "status": "closed",
+    "sessions": [],
+    "resurfacing": [],
+    "note": "一般利用不可"
+   },
+   {
+    "date": "2026-11-11",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "14:45",
+      "end": "21:00",
+      "note": ""
+     }
+    ],
+    "resurfacing": [],
+    "note": ""
+   },
+   {
+    "date": "2026-11-12",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "09:00",
+      "end": "11:00",
+      "note": ""
+     },
+     {
+      "rink": "main",
+      "start": "13:15",
+      "end": "16:15",
+      "note": ""
+     }
+    ],
+    "resurfacing": [],
+    "note": ""
+   },
+   {
+    "date": "2026-11-13",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "15:30",
+      "end": "17:30",
+      "note": ""
+     }
+    ],
+    "resurfacing": [],
+    "note": ""
+   },
+   {
+    "date": "2026-11-14",
+    "status": "closed",
+    "sessions": [],
+    "resurfacing": [],
+    "note": "一般利用不可"
+   },
+   {
+    "date": "2026-11-15",
+    "status": "closed",
+    "sessions": [],
+    "resurfacing": [],
+    "note": "一般利用不可"
+   },
+   {
+    "date": "2026-11-16",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "09:00",
+      "end": "17:15",
+      "note": ""
+     }
+    ],
+    "resurfacing": [],
+    "note": ""
+   },
+   {
+    "date": "2026-11-17",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "13:45",
+      "end": "16:45",
+      "note": ""
+     }
+    ],
+    "resurfacing": [],
+    "note": ""
+   },
+   {
+    "date": "2026-11-18",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "12:00",
+      "end": "21:00",
+      "note": ""
+     }
+    ],
+    "resurfacing": [],
+    "note": ""
+   },
+   {
+    "date": "2026-11-19",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "13:30",
+      "end": "16:15",
+      "note": ""
+     }
+    ],
+    "resurfacing": [],
+    "note": ""
+   },
+   {
+    "date": "2026-11-20",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "09:30",
+      "end": "17:30",
+      "note": "県民の日滑走無料（滑走料のみ無料、貸し靴等は別料金）"
+     }
+    ],
+    "resurfacing": [],
+    "note": "県民の日滑走無料"
+   },
+   {
+    "date": "2026-11-21",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "09:30",
+      "end": "17:30",
+      "note": "高校生以下滑走無料（滑走料のみ無料、貸し靴等は別料金）"
+     }
+    ],
+    "resurfacing": [],
+    "note": "高校生以下滑走無料"
+   },
+   {
+    "date": "2026-11-22",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "09:30",
+      "end": "17:30",
+      "note": ""
+     }
+    ],
+    "resurfacing": [],
+    "note": ""
+   },
+   {
+    "date": "2026-11-23",
+    "status": "closed",
+    "sessions": [],
+    "resurfacing": [],
+    "note": "一般利用不可"
+   },
+   {
+    "date": "2026-11-24",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "12:15",
+      "end": "16:45",
+      "note": ""
+     }
+    ],
+    "resurfacing": [],
+    "note": ""
+   },
+   {
+    "date": "2026-11-25",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "11:45",
+      "end": "21:00",
+      "note": ""
+     }
+    ],
+    "resurfacing": [],
+    "note": ""
+   },
+   {
+    "date": "2026-11-26",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "11:30",
+      "end": "16:15",
+      "note": ""
+     }
+    ],
+    "resurfacing": [],
+    "note": ""
+   },
+   {
+    "date": "2026-11-27",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "14:15",
+      "end": "17:30",
+      "note": ""
+     }
+    ],
+    "resurfacing": [],
+    "note": ""
+   },
+   {
+    "date": "2026-11-28",
+    "status": "closed",
+    "sessions": [],
+    "resurfacing": [],
+    "note": "一般利用不可"
+   },
+   {
+    "date": "2026-11-29",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "09:30",
+      "end": "17:30",
+      "note": ""
+     }
+    ],
+    "resurfacing": [],
+    "note": ""
+   },
+   {
+    "date": "2026-11-30",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "09:00",
+      "end": "17:30",
+      "note": ""
+     }
+    ],
+    "resurfacing": [],
+    "note": ""
+   }
+  ],
+  "confidence": "high",
+  "notes": "更新日は2026/10/28。更新日から2週間以降の予定（11/11以降）は利用時間が変更になる場合があり、土曜日も一般開放がない場合があると記載あり。整氷の時刻の記載はなし。滑走無料の日（11/20、11/21）は滑走料のみ無料で、貸し靴等は別料金。"
+ }
+}
