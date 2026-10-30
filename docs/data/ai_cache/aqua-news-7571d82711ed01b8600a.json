@@ -1,0 +1,25 @@
+{
+ "rink_id": "aqua-news",
+ "created_on": "2026-10-31",
+ "used_on": "2026-10-31",
+ "model": "claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 1238,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 110,
+  "output_tokens_details": {
+   "thinking_tokens": 99
+  },
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "result": {
+  "exceptions": []
+ }
+}
