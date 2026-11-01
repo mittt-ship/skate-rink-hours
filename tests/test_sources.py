@@ -95,3 +95,17 @@ def test_kirifuri_closed_words():
     r = rules.kirifuri(TODAY, END, "u", rules.read_manual_sheet(csv_text))
     assert r[dt.date(2026, 10, 18)].status == CLOSED
     assert r[dt.date(2026, 10, 19)].status != OPEN
+
+
+def test_higashiyamato_images_found_even_if_file_name_changes():
+    from skate.sources import documents
+    base = "https://www.seibu-leisure.co.jp/web/iceskate/index.html"
+    # 実際のページ（9月・10月タブ）
+    docs = documents.higashiyamato_images(t("higashiyamato.html"), base, TODAY)
+    assert [(y, m) for y, m, _, _ in docs] == [(2026, 9), (2026, 10)]
+    # ファイル名の形が変わった11月・年またぎの1月
+    html = ('<div class="comp-tab__body"><img src="/image/calendar_nov.jpg" alt="11月のカレンダー">'
+            '<img src="/image/cal01.png" alt="1月のカレンダー"></div>')
+    docs = documents.higashiyamato_images(html, base, dt.date(2026, 12, 1))
+    assert [(y, m) for y, m, _, _ in docs] == [(2026, 11), (2027, 1)]
+    assert docs[0][2] == "https://www.seibu-leisure.co.jp/image/calendar_nov.jpg"

@@ -12,7 +12,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import datetime as dt  # noqa: E402
 
 from skate import ai, store  # noqa: E402
-from skate.common import UNKNOWN, date_range, end_of_next_month, in_season, now_jst, simple_day  # noqa: E402
+from skate.common import UNKNOWN, UNPUBLISHED, fetch_text, date_range, end_of_next_month, in_season, now_jst, simple_day  # noqa: E402
 from skate.rinks import RINK_BY_ID, RINKS  # noqa: E402
 from skate.sources import calendars, documents, html_pages, rules  # noqa: E402
 
@@ -31,6 +31,16 @@ def with_news(rid, planned, today, end):
 
 def higashiyamato(today, end, url, hour):
     days = documents.fetch_monthly(RINK_BY_ID["higashiyamato"], today, end, today)
+    if days.get(today) is not None and days[today].status == UNPUBLISHED:
+        # 今月の画像が見つからないのは異常（公開済みのことが多い）。画面に注意を出し、原因調査用に画像名を残す
+        try:
+            from bs4 import BeautifulSoup
+            soup = BeautifulSoup(fetch_text(url.split("#")[0]), "html.parser")
+            imgs = [f"{i.get('alt', '')}={i.get('src', '')}" for i in soup.find_all("img")
+                    if "月" in (i.get("alt") or "") or "schedule" in (i.get("src") or "")]
+        except Exception:  # noqa: BLE001
+            imgs = []
+        warnings["higashiyamato"] = "今月のカレンダー画像が見つかりません（ページ内の候補：" + ", ".join(imgs[:8]) + "）"
     today_rec = html_pages.fetch_higashiyamato(today, end, url, today, hour).get(today)
     if today_rec and today_rec.status != UNKNOWN:
         days[today] = today_rec  # 当日はページの「本日の営業時間」を優先

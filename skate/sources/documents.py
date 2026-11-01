@@ -78,6 +78,50 @@ def _drive_download(url: str) -> str:
     return f"https://drive.google.com/uc?export=download&id={m.group(1)}" if m else url
 
 
+def _guess_year(month: int, today: dt.date) -> int:
+    """年の書かれていない「N月」を、今日に近い年として解釈する（12月に1月分が出ても翌年になる）。"""
+    year = today.year
+    if month - today.month > 6:
+        year -= 1
+    elif today.month - month > 6:
+        year += 1
+    return year
+
+
+def higashiyamato_images(html: str, base: str, today: dt.date) -> list[tuple[int, int, str, str]]:
+    """東大和：月別タブの画像。ファイル名の形が変わっても読めるよう、alt の「N月」で月を判断する。"""
+    soup = BeautifulSoup(html, "html.parser")
+    imgs = soup.select(".comp-tab__body img") or soup.find_all("img")
+    docs = set()
+    for img in imgs:
+        src = img.get("src") or ""
+        alt = normalize(img.get("alt") or "")
+        m_name = re.search(r"skating_schedule(\d{2})(\d{2})", src)
+        m_alt = re.search(r"(\d{1,2})月", alt)
+        if m_name:
+            year, month = 2000 + int(m_name.group(1)), int(m_name.group(2))
+        elif m_alt and ("カレンダー" in alt or "スケジュール" in alt or "schedule" in src.lower()):
+            month = int(m_alt.group(1))
+            year = _guess_year(month, today)
+        else:
+            continue
+        if 1 <= month <= 12 and src:
+            docs.add((year, month, _abs(base, src), "image/*"))
+    return sorted(docs)
+
+
+def _sniff_image(payload: bytes) -> str:
+    if payload[:8] == b"\x89PNG\r\n\x1a\n":
+        return "image/png"
+    if payload[:3] == b"\xff\xd8\xff":
+        return "image/jpeg"
+    if payload[:4] == b"RIFF" and payload[8:12] == b"WEBP":
+        return "image/webp"
+    if payload[:4] == b"GIF8":
+        return "image/gif"
+    raise RuntimeError("画像ではないファイルが返りました")
+
+
 def find_documents(rink_id: str, today: dt.date) -> list[tuple[int, int, str, str]]:
     """(年, 月, URL, media_type) の一覧。"""
     docs = []
@@ -117,9 +161,7 @@ def find_documents(rink_id: str, today: dt.date) -> list[tuple[int, int, str, st
                 docs.append((2018 + int(m.group(1)), int(m.group(2)), _abs(base, a["href"]), "application/pdf"))
     elif rink_id == "higashiyamato":
         base = "https://www.seibu-leisure.co.jp/web/iceskate/index.html"
-        html = fetch_text(base)
-        for href, yy, mm in set(re.findall(r"((?:https?://[^\"'\s]+)?/image/skating_schedule(\d{2})(\d{2})\.png)", html)):
-            docs.append((2000 + int(yy), int(mm), _abs(base, href), "image/png"))
+        docs += higashiyamato_images(fetch_text(base), base, today)
     # 今月以降だけ（過去月は保存済みの記録を残す）
     this_month = (today.year, today.month)
     return sorted({d for d in docs if (d[0], d[1]) >= this_month})
@@ -173,9 +215,11 @@ def fetch_monthly(rink: dict, start: dt.date, end: dt.date, today: dt.date, seas
         payload = fetch_bytes(doc_url, timeout=60)
         if media == "application/pdf" and payload[:4] != b"%PDF":
             raise RuntimeError(f"PDFではないファイルが返りました：{doc_url}")
+        if media.startswith("image/"):
+            media = _sniff_image(payload)
         prompt = SCHEDULE_PROMPT.format(name=rink["name"], year=year, month=month, hints=HINTS.get(rid, ""))
         result = ai.read(rid, payload, media, prompt, today)
-        found.update(_records_from_ai(result, year, month, doc_url if media != "image/png" else url))
+        found.update(_records_from_ai(result, year, month, url if media.startswith("image/") else doc_url))
         covered_months.add((year, month))
     out = {}
     for d in date_range(start, end):
