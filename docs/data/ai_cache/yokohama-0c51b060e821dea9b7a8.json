@@ -1,0 +1,515 @@
+{
+ "rink_id": "yokohama",
+ "created_on": "2026-11-02",
+ "used_on": "2026-11-02",
+ "model": "claude-sonnet-5-5",
+ "usage": {
+  "input_tokens": 3539,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 3267,
+  "output_tokens_details": {
+   "thinking_tokens": 839
+  },
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "result": {
+  "year": 2026,
+  "month": 12,
+  "days": [
+   {
+    "date": "2026-12-01",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "13:00"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-02",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "13:00"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-03",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "12:30",
+      "end": "18:30",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "15:45"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-04",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "12:30",
+      "end": "18:30",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "15:45"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-05",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "12:15",
+     "14:15"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-06",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": "ワンポイントレッスン12:30～（初心者対象、約30分、予約不要）"
+     }
+    ],
+    "resurfacing": [
+     "12:15",
+     "14:15"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-07",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "13:00"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-08",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "13:00"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-09",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "13:00"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-10",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "12:30",
+      "end": "18:30",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "15:45"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-11",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "12:30",
+      "end": "18:30",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "15:45"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-12",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "12:15",
+     "14:15"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-13",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": "ワンポイントレッスン12:30～（初心者対象、約30分、予約不要）"
+     }
+    ],
+    "resurfacing": [
+     "12:15",
+     "14:15"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-14",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "13:00"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-15",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "13:00"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-16",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "13:00"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-17",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "12:30",
+      "end": "18:30",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "15:45"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-18",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "12:30",
+      "end": "18:30",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "15:45"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-19",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "12:15",
+     "14:15"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-20",
+    "status": "closed",
+    "sessions": [],
+    "resurfacing": [],
+    "note": "イベント開催のため休業"
+   },
+   {
+    "date": "2026-12-21",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "13:00"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-22",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "13:00"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-23",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "13:00"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-24",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "12:30",
+      "end": "18:30",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "15:45"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-25",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "12:30",
+      "end": "18:30",
+      "note": ""
+     }
+    ],
+    "resurfacing": [
+     "15:45"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-26",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": "ワンポイントレッスン12:30～（初心者対象、約30分、予約不要）"
+     }
+    ],
+    "resurfacing": [
+     "12:15",
+     "14:15"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-27",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": "ワンポイントレッスン12:30～（初心者対象、約30分、予約不要）"
+     }
+    ],
+    "resurfacing": [
+     "12:15",
+     "14:15"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-28",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": "ワンポイントレッスン13:30～（初心者対象、約30分、予約不要）"
+     }
+    ],
+    "resurfacing": [
+     "13:00"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-29",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": "ワンポイントレッスン13:30～（初心者対象、約30分、予約不要）"
+     }
+    ],
+    "resurfacing": [
+     "13:00"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-30",
+    "status": "open",
+    "sessions": [
+     {
+      "rink": "main",
+      "start": "10:00",
+      "end": "16:00",
+      "note": "ワンポイントレッスン13:30～（初心者対象、約30分、予約不要）"
+     }
+    ],
+    "resurfacing": [
+     "13:00"
+    ],
+    "note": ""
+   },
+   {
+    "date": "2026-12-31",
+    "status": "closed",
+    "sessions": [],
+    "resurfacing": [],
+    "note": "年末休業"
+   }
+  ],
+  "confidence": "high",
+  "notes": "画像版と文字版のカレンダーは一致。1月1日は年始休業だが12月の範囲外なので days に含めていない。ワンポイントレッスンは各セッションの note に記載。急な休業の可能性あり（注記より）。"
+ }
+}
