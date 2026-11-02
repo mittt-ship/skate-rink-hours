@@ -2,6 +2,10 @@ name: 取得テスト
 
 on:
   workflow_dispatch:
+    inputs:
+      script:
+        description: 実行するテスト
+        default: probe.py
 
 permissions:
   contents: write
@@ -19,7 +23,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           MANUAL_SHEET_CSV_URL: https://docs.google.com/spreadsheets/d/e/2PACX-1vTsUr65zkeUa-BLk20VUzHMZ6FOxVlR-3gTuXBMUBBDUTxHt8aO8Gp07LxsaiDLiRbHC6ZjJcKpT273/pub?gid=0&single=true&output=csv
-        run: python scripts/probe.py
+        run: python scripts/${{ inputs.script || 'probe.py' }}
       - name: 結果を probe-results ブランチに保存
         if: always()
         run: |
