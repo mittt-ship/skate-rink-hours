@@ -10,8 +10,7 @@ OUT = Path("probe_results/pages2")
 OUT.mkdir(parents=True, exist_ok=True)
 UA = "skate-rink-hours/0.1 (family schedule viewer; github.com/mittt-ship/skate-rink-hours)"
 URLS = [
-    "https://www.icespace.co.jp/hpgen/HPB/entries/20.html",
-    "https://www.icespace.co.jp/hpgen/HPB/entries/23.html",
+    "https://drive.google.com/uc?export=download&id=1PPgfN23lXaU5dBCCaOxi3KcwtdJ57Ops",
 ]
 index = {}
 for i, url in enumerate(URLS):
@@ -19,7 +18,7 @@ for i, url in enumerate(URLS):
         req = urllib.request.Request(url, headers={"User-Agent": UA})
         with urllib.request.urlopen(req, timeout=30) as r:
             body = r.read()
-        name = f"{i:02d}_" + re.sub(r"[^\w]+", "_", urllib.parse.urlparse(url).netloc + urllib.parse.urlparse(url).path)[-60:] + (".bin" if url.endswith((".jpg", ".png")) else ".html")
+        name = f"{i:02d}_" + re.sub(r"[^\w]+", "_", urllib.parse.urlparse(url).netloc + urllib.parse.urlparse(url).path)[-60:] + (".bin" if url.endswith((".jpg", ".png")) or "drive.google" in url else ".html")
         (OUT / name).write_bytes(body)
         index[url] = name
         # お知らせ記事に貼られた予定表の画像も保存する
