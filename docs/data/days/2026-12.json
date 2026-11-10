@@ -4,7 +4,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -23,7 +23,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -35,7 +35,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "教室貸切",
@@ -46,20 +46,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "17:30まで営業。18:00-19:30のジュニアスケート教室（アイスホッケー）は一般営業に含めない",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -71,7 +78,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -90,7 +97,7 @@
    "kirifuri": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "手入力の営業カレンダー",
@@ -109,7 +116,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -121,7 +128,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -133,7 +140,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -145,7 +152,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -170,7 +177,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -182,7 +189,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -194,7 +201,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -213,7 +220,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -236,7 +243,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -255,7 +262,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -267,7 +274,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -285,20 +292,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "通常営業",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -310,7 +324,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -329,7 +343,7 @@
    "kirifuri": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "手入力の営業カレンダー",
@@ -348,7 +362,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -360,7 +374,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -372,7 +386,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -384,7 +398,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -409,7 +423,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -421,7 +435,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -433,7 +447,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -452,7 +466,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -475,7 +489,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -494,7 +508,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -506,7 +520,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "教室貸切",
@@ -517,20 +531,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "17:30まで営業。18:00-19:30のジュニアスケート教室（フィギュア・スピード）は一般営業に含めない",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -542,7 +563,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -561,7 +582,7 @@
    "kirifuri": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "手入力の営業カレンダー",
@@ -580,7 +601,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -592,7 +613,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -604,7 +625,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -616,7 +637,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -641,7 +662,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -653,7 +674,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -665,7 +686,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -684,7 +705,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -707,7 +728,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -726,7 +747,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -738,7 +759,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -756,20 +777,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "通常営業",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -781,7 +809,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -800,7 +828,7 @@
    "kirifuri": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "手入力の営業カレンダー",
@@ -819,7 +847,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -831,7 +859,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -843,7 +871,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -855,7 +883,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -880,7 +908,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -892,7 +920,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -904,7 +932,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -923,7 +951,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -946,7 +974,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -965,7 +993,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -977,7 +1005,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -995,20 +1023,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "神奈川県スケート連盟ショートトラック教室、第64回神奈川県ショートトラックスピードスケート競技会あり。9:00-10:30の幼児スケート教室（1/4）は申込制でサブリンク使用",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "14:00",
+      "note": "団体貸切のため14:00まで営業",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1020,7 +1055,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -1039,7 +1074,7 @@
    "kirifuri": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "手入力の営業カレンダー",
@@ -1058,7 +1093,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1070,7 +1105,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1082,7 +1117,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1094,7 +1129,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -1119,7 +1154,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1131,7 +1166,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1143,7 +1178,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -1162,7 +1197,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -1186,7 +1221,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -1205,7 +1240,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1217,7 +1252,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -1235,20 +1270,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "7:00-9:00の早朝スケート教室は一般営業に含めない",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "10:30-15:30は指導員が巡回レッスン",
+      "rink": "main",
+      "start": "9:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1260,7 +1302,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -1279,7 +1321,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -1298,7 +1340,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1310,7 +1352,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1322,7 +1364,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1334,7 +1376,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "専用利用の時間あり",
@@ -1359,7 +1401,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1371,7 +1413,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1383,7 +1425,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -1402,7 +1444,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -1426,7 +1468,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -1445,7 +1487,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1457,7 +1499,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -1475,20 +1517,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "17:45-19:30はリンク1/3をバッジテスト練習会で使用",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1500,7 +1549,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -1519,7 +1568,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -1538,7 +1587,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1550,7 +1599,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1562,7 +1611,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1574,7 +1623,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -1599,7 +1648,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1611,7 +1660,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1623,7 +1672,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -1642,7 +1691,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -1665,7 +1714,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -1684,7 +1733,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1696,7 +1745,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "教室貸切",
@@ -1707,20 +1756,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "18:00-19:30のジュニアスケート教室（アイスホッケー）は一般営業に含めない",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "9:00-11:30と12:30-15:00はリンク2/3を小学校スケート教室で使用",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1732,7 +1788,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -1751,7 +1807,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -1770,7 +1826,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1782,7 +1838,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1794,7 +1850,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1806,7 +1862,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -1831,7 +1887,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1843,7 +1899,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1855,7 +1911,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -1874,7 +1930,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -1897,7 +1953,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -1916,7 +1972,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1928,7 +1984,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -1946,20 +2002,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "12:30-15:00はリンク2/3を小学校スケート教室で使用。17:45-19:30はリンク1/3をバッジテスト練習会で使用",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -1971,7 +2034,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -1990,7 +2053,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -2009,7 +2072,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2021,7 +2084,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2033,7 +2096,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2045,7 +2108,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -2070,7 +2133,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2082,7 +2145,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2094,7 +2157,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -2113,7 +2176,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -2136,7 +2199,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -2155,7 +2218,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2167,7 +2230,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "教室貸切",
@@ -2178,20 +2241,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "18:00-19:30のジュニアスケート教室（フィギュア・スピード）は一般営業に含めない",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "9:00-11:30と12:30-15:00はリンク2/3を小学校スケート教室で使用",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2203,7 +2273,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -2222,7 +2292,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -2241,7 +2311,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2253,7 +2323,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2265,7 +2335,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2277,7 +2347,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -2302,7 +2372,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2314,7 +2384,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2326,7 +2396,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -2345,7 +2415,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -2368,7 +2438,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -2387,7 +2457,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2399,7 +2469,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -2417,20 +2487,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "通常営業",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2442,7 +2519,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -2461,7 +2538,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -2480,7 +2557,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2492,7 +2569,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2504,7 +2581,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2516,7 +2593,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -2541,7 +2618,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2553,7 +2630,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2565,7 +2642,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -2584,7 +2661,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -2607,7 +2684,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -2626,7 +2703,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2638,7 +2715,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "イベント準備のためお休み",
@@ -2649,20 +2726,20 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "method": "ai",
+    "note": "団体貸切のため終日営業休止（秋季小中学生神奈川選手権（アイスホッケー））。9:00-10:30の幼児スケート教室（2/4）は申込制でサブリンク使用",
     "resurfacing": [],
     "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "closed"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2674,7 +2751,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -2693,7 +2770,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -2712,7 +2789,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2724,7 +2801,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2736,7 +2813,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2748,7 +2825,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -2773,7 +2850,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2785,7 +2862,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2797,7 +2874,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -2816,7 +2893,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -2840,7 +2917,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -2859,7 +2936,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2871,7 +2948,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "(氷上フェスティバル)",
@@ -2889,20 +2966,20 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "method": "ai",
+    "note": "団体貸切のため終日営業休止（秋季小中学生神奈川選手権（アイスホッケー））",
     "resurfacing": [],
     "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "closed"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2914,7 +2991,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -2933,7 +3010,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -2952,7 +3029,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2964,7 +3041,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2976,7 +3053,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -2988,7 +3065,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -3013,7 +3090,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3025,7 +3102,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3037,7 +3114,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -3056,7 +3133,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -3080,7 +3157,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -3099,7 +3176,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3111,7 +3188,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -3129,20 +3206,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "17:45-19:30はリンク1/3をバッジテスト練習会で使用",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3154,7 +3238,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -3173,7 +3257,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -3192,7 +3276,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3204,7 +3288,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3216,7 +3300,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3228,7 +3312,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -3253,7 +3337,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3265,7 +3349,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3277,7 +3361,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -3296,7 +3380,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -3319,7 +3403,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -3338,7 +3422,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3350,7 +3434,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "教室貸切",
@@ -3361,20 +3445,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "18:00-19:30のジュニアスケート教室（アイスホッケー）は一般営業に含めない",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "9:00-11:30と12:30-15:00はリンク2/3を小学校スケート教室で使用",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3386,7 +3477,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -3405,7 +3496,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -3424,7 +3515,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3436,7 +3527,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3448,7 +3539,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3460,7 +3551,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "専用利用の時間あり",
@@ -3485,7 +3576,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3497,7 +3588,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3509,7 +3600,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -3528,7 +3619,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -3551,7 +3642,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -3570,7 +3661,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3582,7 +3673,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -3600,20 +3691,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "17:45-19:30はリンク1/3をバッジテスト練習会で使用",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3625,7 +3723,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -3644,7 +3742,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -3663,7 +3761,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3675,7 +3773,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3687,7 +3785,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3699,7 +3797,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -3724,7 +3822,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3736,7 +3834,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3748,7 +3846,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -3767,7 +3865,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -3790,7 +3888,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -3809,7 +3907,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3821,7 +3919,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "教室貸切",
@@ -3832,20 +3930,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "18:00-19:30のジュニアスケート教室（フィギュア・スピード）は一般営業に含めない",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "9:00-11:30はリンク2/3を小学校スケート教室で使用",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3857,7 +3962,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -3876,7 +3981,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -3895,7 +4000,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3907,7 +4012,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3919,7 +4024,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3931,7 +4036,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -3956,7 +4061,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3968,7 +4073,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -3980,7 +4085,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -3999,7 +4104,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -4022,7 +4127,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -4041,7 +4146,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4053,7 +4158,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -4071,20 +4176,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "通常営業",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4096,7 +4208,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -4115,7 +4227,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -4134,7 +4246,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4146,7 +4258,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4158,7 +4270,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4170,7 +4282,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -4195,7 +4307,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4207,7 +4319,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4219,7 +4331,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -4238,7 +4350,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -4261,7 +4373,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -4280,7 +4392,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4292,7 +4404,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -4310,20 +4422,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "通常営業。9:00-10:30の幼児スケート教室（3/4）は申込制でサブリンク使用",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4335,7 +4454,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -4354,7 +4473,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -4373,7 +4492,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4385,7 +4504,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4397,7 +4516,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4409,7 +4528,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -4434,7 +4553,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4446,7 +4565,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4458,7 +4577,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -4477,7 +4596,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -4501,7 +4620,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -4520,7 +4639,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4532,7 +4651,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -4550,20 +4669,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "7:00-9:00の早朝スケート教室は一般営業に含めない",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "10:30-15:30は指導員が巡回レッスン",
+      "rink": "main",
+      "start": "9:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4575,7 +4701,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -4594,7 +4720,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -4613,7 +4739,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4625,7 +4751,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4637,7 +4763,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4649,7 +4775,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "専用利用の時間あり",
@@ -4674,7 +4800,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4686,7 +4812,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4698,7 +4824,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -4717,7 +4843,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "ai",
     "note": "イベント開催のため休業",
@@ -4731,7 +4857,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -4750,7 +4876,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4762,7 +4888,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -4780,20 +4906,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "17:45-19:30はリンク1/3をバッジテスト練習会で使用",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4805,7 +4938,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -4824,7 +4957,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -4843,7 +4976,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4855,7 +4988,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4867,7 +5000,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4879,7 +5012,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -4904,7 +5037,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -4916,7 +5049,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "休館日",
@@ -4928,7 +5061,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -4947,7 +5080,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -4970,7 +5103,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -4989,7 +5122,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5001,7 +5134,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "教室貸切",
@@ -5012,20 +5145,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "17:30まで営業。18:00-19:30のジュニアスケート教室（アイスホッケー）は一般営業に含めない",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5037,7 +5177,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -5056,7 +5196,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -5075,7 +5215,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5087,7 +5227,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5099,7 +5239,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5111,7 +5251,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -5136,7 +5276,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5148,7 +5288,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5160,7 +5300,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -5179,7 +5319,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -5202,7 +5342,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -5221,7 +5361,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5233,7 +5373,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -5251,20 +5391,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "通常営業",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5276,7 +5423,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -5295,7 +5442,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -5314,7 +5461,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5326,7 +5473,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5338,7 +5485,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5350,7 +5497,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -5375,7 +5522,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5387,7 +5534,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5399,7 +5546,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -5418,7 +5565,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -5441,7 +5588,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -5460,7 +5607,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5472,7 +5619,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "教室貸切",
@@ -5483,20 +5630,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "17:30まで営業。18:00-19:30のジュニアスケート教室（フィギュア・スピード）は一般営業に含めない",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "17:30",
+      "note": "",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5508,7 +5662,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定",
@@ -5527,7 +5681,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -5546,7 +5700,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5558,7 +5712,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5570,7 +5724,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5582,7 +5736,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -5607,7 +5761,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5619,7 +5773,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5631,7 +5785,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -5650,7 +5804,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -5673,7 +5827,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -5692,7 +5846,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5704,7 +5858,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -5722,20 +5876,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "通常営業",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5747,7 +5908,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（12月末〜3月末の平日は時間が変わることがあります）",
@@ -5766,7 +5927,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -5785,7 +5946,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5797,7 +5958,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5809,7 +5970,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5821,7 +5982,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -5846,7 +6007,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5858,7 +6019,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5870,7 +6031,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -5889,7 +6050,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -5912,7 +6073,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -5931,7 +6092,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5943,7 +6104,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -5961,20 +6122,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "通常営業。9:00-10:30の幼児スケート教室（4/4）は申込制でサブリンク使用",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -5986,7 +6154,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（12月末〜3月末の平日は時間が変わることがあります）",
@@ -6005,7 +6173,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -6024,7 +6192,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6036,7 +6204,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6048,7 +6216,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6060,7 +6228,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -6085,7 +6253,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6097,7 +6265,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6109,7 +6277,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -6128,7 +6296,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -6152,7 +6320,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -6171,7 +6339,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6183,7 +6351,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -6201,20 +6369,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "10:30-15:30は指導員が巡回レッスン",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6226,7 +6401,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（12月末〜3月末の平日は時間が変わることがあります）",
@@ -6245,7 +6420,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -6264,7 +6439,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6276,7 +6451,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6288,7 +6463,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6300,7 +6475,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -6325,7 +6500,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6337,7 +6512,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6349,7 +6524,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -6368,7 +6543,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -6392,7 +6567,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -6411,7 +6586,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6423,7 +6598,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -6441,20 +6616,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "通常営業",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6466,7 +6648,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（12月末〜3月末の平日は時間が変わることがあります）",
@@ -6485,7 +6667,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -6504,7 +6686,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6516,7 +6698,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6528,7 +6710,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6540,7 +6722,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -6565,7 +6747,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6577,7 +6759,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6589,7 +6771,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -6608,7 +6790,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -6631,7 +6813,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -6650,7 +6832,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6662,7 +6844,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -6680,20 +6862,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "通常営業",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6705,7 +6894,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（12月末〜3月末の平日は時間が変わることがあります）",
@@ -6724,7 +6913,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -6743,7 +6932,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6755,7 +6944,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6767,7 +6956,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6779,7 +6968,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -6804,7 +6993,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6816,7 +7005,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6828,7 +7017,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（大会などの変更はお知らせ欄で告知）",
@@ -6847,7 +7036,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -6870,7 +7059,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -6889,7 +7078,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6901,7 +7090,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -6919,20 +7108,27 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
-    "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
+    "main_open": true,
+    "method": "ai",
+    "note": "通常営業",
     "resurfacing": [],
-    "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "sessions": [
+     {
+      "end": "19:30",
+      "note": "",
+      "rink": "main",
+      "start": "8:30"
+     }
+    ],
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "open"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6944,7 +7140,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（12月末〜3月末の平日は時間が変わることがあります）",
@@ -6963,7 +7159,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -6982,7 +7178,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -6994,7 +7190,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -7006,7 +7202,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -7018,7 +7214,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -7043,7 +7239,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -7055,7 +7251,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -7067,7 +7263,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "休場日",
@@ -7079,7 +7275,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "ai",
     "note": "",
@@ -7102,7 +7298,7 @@
    "aqua": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（変更はお知らせ欄で告知）",
@@ -7121,7 +7317,7 @@
    "daido": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -7133,7 +7329,7 @@
    "edogawa": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -7151,20 +7347,20 @@
    },
    "ginga": {
     "basis": "confirmed",
-    "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "confidence": "medium",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
-    "method": "",
-    "note": "まだ公開されていません",
+    "method": "ai",
+    "note": "休館日（12/31〜1/1の2日間）",
     "resurfacing": [],
     "sessions": [],
-    "source_url": "https://ginga-arena.sagamiharashi-machimidori.or.jp/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E5%A0%B4/%E4%B8%80%E8%88%AC%E5%88%A9%E7%94%A8",
-    "status": "unpublished"
+    "source_url": "https://drive.google.com/uc?export=download&id=1UstmgdRfWS9gjlRhuUWbTPsS1GUVZoYU",
+    "status": "closed"
    },
    "higashiyamato": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -7176,7 +7372,7 @@
    "jingu": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（12月末〜3月末の平日は時間が変わることがあります）",
@@ -7195,7 +7391,7 @@
    "kirifuri": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "基本営業時間からの予定（公式の営業カレンダーで確認してください）",
@@ -7214,7 +7410,7 @@
    "kosesp": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -7226,7 +7422,7 @@
    "maorink": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -7238,7 +7434,7 @@
    "mfice": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -7250,7 +7446,7 @@
    "saitama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": true,
     "method": "",
     "note": "",
@@ -7275,7 +7471,7 @@
    "shinyoko": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "まだ公開されていません",
@@ -7287,7 +7483,7 @@
    "tatsumi": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "休館日",
@@ -7299,7 +7495,7 @@
    "utsunomiya": {
     "basis": "planned",
     "confidence": "medium",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "",
     "note": "休場日",
@@ -7311,7 +7507,7 @@
    "yokohama": {
     "basis": "confirmed",
     "confidence": "high",
-    "fetched_at": "2026-11-10T11:39:32+09:00",
+    "fetched_at": "2026-11-10T19:59:49+09:00",
     "main_open": false,
     "method": "ai",
     "note": "年末休業",
